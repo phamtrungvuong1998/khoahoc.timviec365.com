@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>404 Not Found</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow"/>
+	<style type="text/css">
+		body{margin:0;padding:0}@font-face{font-family:Roboto-Bold;src:url(../fonts/Roboto-Bold.woff2)}.container404{background:linear-gradient(180deg,#3b38ba 0,#3d3ad3 46.88%,#363487 96.87%)}.text404{padding-top:95px;padding-bottom:61px;text-align:center}.text-whoops{text-align:center}.btn-back{text-align:center;padding-top:26px}.btn-back a{text-decoration:none;padding:7px 29px;background:#ffc121;border-radius:50px;color:#fff;font-size:22px;line-height:28px;text-transform:uppercase;font-family:Roboto-Bold}.break404{padding-top:51px;padding-bottom:91px}.break404 img{width:90%}@media screen and (max-width:1025px){.text404{padding-top:120px;padding-bottom:51px}.break404{padding-top:156px;padding-bottom:315px}}@media screen and (max-width:480px){.text404 img{width:182px;height:80px}.break404{padding-top:82px;padding-bottom:312px}.text-whoops img{width:150px;height:12px}.btn-back{padding-top:13px}.btn-back a{text-decoration:none;padding:6px 22px 5px 23px;background:#ffc121;border-radius:50px;color:#fff;font-size:22px;line-height:28px;text-transform:uppercase;font-family:Roboto-Bold}}
+	</style>
+</head>
+<body>
+	<div class="container404">
+		<div class="text404">
+			<img src="../image/404.svg">
+		</div>
+		<div class="text-whoops">
+			<img src="../image/text_whoops.svg">
+		</div>
+		<div class="btn-back">
+			<a href="/">Về trang chủ</a>
+		</div>
+		<div class="break404">
+			<img src="../image/break.svg">
+		</div>
+	</div>
+</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125014721-1"></script>
+<script async>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125014721-1');
+</script>
+</html>

@@ -1,0 +1,16 @@
+
+	.v_tieude{
+		padding-left: 29px;
+	}
+
+@media (max-width: 1365px){
+	.v_content-2-title{
+		color: #1B6AAB;
+		font-weight: 400;
+		font-size: 24px;
+	}
+
+	.v_cap{
+		display: none;
+	}
+}

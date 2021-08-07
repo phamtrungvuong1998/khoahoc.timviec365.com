@@ -1,0 +1,94 @@
+        #v_content-time{
+            position: relative;
+            padding-top: 15px;
+            padding-bottom: 16px;
+            height: 72px;
+            display: flex;
+            border-radius: 8px 8px 0 0;
+            background: white;
+            width: 94.95%;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding-left: 2.5%;
+            padding-right: 2.5%;
+        }
+
+        .v_content-time-input{
+            padding-right: 32px;
+        }
+
+       /* .v_content-time-input:first-child{
+            padding-left: 2.5%;
+        }*/
+
+        .v_content-time-input input{
+            background: #F4F2FF;
+            border: none;
+            height: 40px;
+            border-radius: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #content-time-btn{
+            position: absolute;
+            right: 2.5%;
+        }
+
+        #content-time-btn button{
+            border: none;
+            height: 39px;
+            background: #185DA0;
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+            width: 144px;
+            border-radius: 6px;
+        }
+
+        .v_content-time-input label{
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        @media (max-width: 1365px){
+            #content-time-btn img{
+                display: none;
+            }
+
+            #v_content-time{
+                padding-right: 0;
+            }
+
+            #content-time-btn{
+                right: 0;
+            }
+        }
+
+        @media (max-width: 767px){
+            #v_content-time{
+                height: 189px;
+                margin-bottom: 32px;
+            }
+
+            #content-time-btn{
+                bottom: 28px;
+                right: 2.5%;
+            }
+
+            #v_content-time{
+                flex-direction: column;
+                box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 4px;
+            }
+
+            .v_content-time-input{
+                text-align: left;
+                padding-bottom: 16px;
+            }
+        }
+
+        @media (max-width: 374px){
+            #v_content-time{
+                height: 235px;
+            }
+        }

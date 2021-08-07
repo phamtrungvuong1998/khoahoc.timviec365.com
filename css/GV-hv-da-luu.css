@@ -1,0 +1,113 @@
+#content{
+	display: flex;
+	padding-left: 2.5%;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-top: 48px;
+	margin-right: -2.5%;
+}
+
+#content-box{	
+	padding-bottom: 100px;
+}
+
+.p_active{
+	background: #1B6AAB;
+	color: white;
+}
+
+.v_content-detail{
+	margin-right: 2.5%;
+	position: relative;
+	flex-basis: 30%;
+	background: white;
+	margin-bottom: 24px;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+
+.v_content-detail-hr{
+	position: absolute;
+	width: 100%;
+	margin: 0;	
+	border: 3px solid #F89923;
+	background: #F89923;
+}
+
+.v_content-detail-img{
+	padding-top: 16px;
+	padding-bottom: 12px;
+}
+
+.v_content-detail-name{
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 18px;
+}
+
+.v_content-detail-ND{
+	padding-left: 17px;
+}
+
+.v_content-detail-tx{
+	padding-bottom: 17px;
+}
+
+.v_content-detail-tx img{
+	padding-right: 11px;
+}
+
+.v_content-detail-span{
+	font-weight: 400;
+}
+
+.v_content-detail-btn{
+	display: flex;
+	padding: 5px 16px 14px 16px;
+	justify-content: space-between;
+}
+
+.v_content-detail-xt{
+	border: 1px solid #1B6AAB;
+	color: #1B6AAB;
+	padding: 6px;
+	font-weight: 500;
+	font-size: 14px;
+	background: white;
+	border-radius: 4px;
+}
+
+.v_content-detail-del{
+	width: 20%;
+	text-align: center;
+	background: #FA1414;
+	border-radius: 4px;
+	padding: 6px;
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+}
+
+.student_avatar{
+	border-radius: 50%;
+	width: 79px;
+	height: 79px;
+}
+@media (max-width: 1200px){
+
+	.v_content-detail{
+		flex-basis: 47%;
+	}
+	#content{
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 767px){
+	.v_content-detail{
+		flex-basis: 100%;
+	}
+}
+

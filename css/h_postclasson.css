@@ -1,0 +1,163 @@
+.container:first-child{
+    margin-left: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#avatar{
+    width: 100%;
+}
+
+.onlinegv .select2-container{
+    width: 100% !important;
+}
+
+.post11{
+    width: 70%;
+}
+
+.post11 .form-group{
+    display: flex;
+}
+
+.post3{
+    margin-left: 0;
+}
+
+.post11 .form-group label{
+    flex-basis: 25%;
+}
+
+.post12{
+    float: right;
+}
+.post2 .form-group{
+    margin-right: 0;
+}
+.post2 .select2-container{
+    width: 100% !important;
+}
+
+.post2 .select2-selection{
+    width: 100%;
+}
+.post2 .form-group:first-child{
+    padding-right: 5%;
+}
+
+.post2 .form-group:last-child{
+    padding-left: 5%;
+}
+
+.onlinegv .select2-container--default .select2-selection--single{
+    width: 100% !important;
+}
+
+.post-course1 label{
+    width: 100%;
+}
+
+#btnnext{
+    margin-right: 0;
+}
+
+.post33{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post33 label{
+    flex-basis: 100%;
+}
+.post33 .form-group{
+    flex-basis: 20%;
+}
+@media (max-width: 1025px){
+    .post33 .form-group{
+        flex-basis: 25%;
+    }
+
+    .post2 .form-group:first-child{
+        padding-right: 5%;
+    }
+
+    .post2 .select2-container{
+        width: 100% !important;
+    }
+
+    .onlinegv .select2-container{
+        width: 100% !important;
+    }
+
+    .post11{
+        width: 65%;
+    }
+}
+
+@media(max-width: 768px){
+    .post2 .form-group:first-child {
+        padding-right: 0;
+    }
+
+    .post2 .form-group:last-child {
+        padding-left: 0;
+    }
+
+    .post2{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px){
+    .post12{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .post11{
+        width: 100%;
+    }
+
+    .post11 .form-group {
+       flex-wrap: wrap;
+    }
+
+    .post11 input {
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .post11 .form-group label {
+        flex-basis: 100%;
+    }
+
+    .post33 .form-group{
+        flex-basis: 100%;
+    }
+
+    .post2 .select2-container{
+        width: 100% !important;
+    }
+
+    .onlinegv .select2-container{
+        width: 100% !important;
+    }
+
+    .post1, .post2{
+        padding-left: 0;
+    }
+
+    .post-course1 label {
+        width: 45% !important;
+    }
+
+    .post3{
+        margin-left: 0;
+    }
+
+    .second2 .form-group{
+        display: block;
+        width: 60% !important;
+    }
+}

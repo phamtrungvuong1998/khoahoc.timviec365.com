@@ -1,0 +1,197 @@
+.l_title {
+    width: 95%;
+    margin: 65px auto 48px;
+}
+
+.l_hr {
+    border: none;
+    border-top: 4px solid rgba(248, 153, 35, 1);
+    width: 5%;
+}
+
+.l_title_text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.l_chucnang {
+    width: 95%;
+    display: flex;
+    margin: 0px auto 20px;
+    justify-content: space-between;
+}
+
+.l_input {
+    width: 171px;
+    height: 40px;
+    background: #F4F2FF;
+    border: none;
+    border-radius: 6px;
+    padding: 7px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.l_btn_excel {
+    border: none;
+    outline: none;
+    width: 144px;
+    height: 39px;
+    background: #185DA0;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.l_img_excel {
+    margin-right: 5px;
+}
+
+.l_color {
+    color: red;
+}
+
+.l_tiengiaodich1 {
+    color: red;
+}
+
+.l_phantrang {
+    clear: left;
+    text-align: center;
+    padding: 18px 0px 140px;
+}
+
+.l_phantrang_btn {
+    margin-right: 10px;
+    padding: 6px 12px;
+    background: no-repeat;
+    outline: none;
+    opacity: 0.7;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.l_phantrang_btn1 {
+    margin-right: 10px;
+    padding: 6px 12px;
+    background: no-repeat;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #1B6AAB;
+    color: rgb(255, 255, 255);
+}
+
+.l_stt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+/* .l_content-list {
+    height: 108px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+} */
+
+.l_tiengiaodich {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 149%;
+    color: #1B6AAB;
+}
+
+.l_no {
+    color: #1B6AAB;
+    font-size: 20px;
+}
+
+#l_thongbao {
+    display: none;
+}
+
+.l_sodu {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.l_content {
+    width: 95%;
+    margin: 30px auto;
+    display: table;
+    border-collapse: collapse;
+    background: white;
+}
+
+.l_content-title {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: table-row;
+    background: #F4F2FF;
+    font-weight: 700;
+    color: #1B6AAB;
+    border-radius: 8px 8px 0 0;
+}
+
+.l_content-title div {
+    font-size: 14px;
+}
+
+.l_table-cell {
+    display: table-cell;
+    padding: 20px 10px 20px 10px;
+}
+
+.l_noidungkh {
+    display: table-row;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.l_vikhoahoc {
+    display: block;
+}
+
+.l_lichsugiaodich {
+    color: #096ed1;
+}
+
+.l_vikhoahoc365 {
+    color: #096ed1;
+}
+
+.l_font_size {
+    text-align: center;
+    font-size: 22px;
+    color: #1B6AAB;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1366px) {
+    .l_right {
+        width: 100%;
+    }
+    .l_input {
+        background: none;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+}

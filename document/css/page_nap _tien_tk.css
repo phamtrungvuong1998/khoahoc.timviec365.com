@@ -1,0 +1,333 @@
+#main{
+    background: #E5E5E5;
+}
+
+        #v_alert-rechange{
+            display: none;
+            background: rgba(0, 0, 0, 0.3);
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            padding-top: 72px;
+        }
+
+        #v_alert-content{
+            width: 50%;
+            background: white;
+            box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding-bottom: 56px;
+        }
+
+        #v_alert-title{
+            color: #1B6AAB;
+            font-weight: 700;
+            font-size: 24px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+
+        #v_alert-detail{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .v_alert-detail-1{
+            flex-basis: 45%;
+            padding-bottom: 24px; 
+            text-align: left;
+        }
+
+        .v_alert-detail-1 select, .v_alert-detail-1 input{
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            box-sizing: border-box;
+            border-radius: 4px;
+            height: 45px;
+            padding-left: 8px;
+        }
+
+        .v_alert-btn{
+            height: 36px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            background: white;
+            padding-right: 16px;
+            padding-left: 16px;
+            font-weight: 700;
+            margin-right: 20px;
+        }
+
+        .v_alert-btn:hover{
+            color: white;
+            background: #1B6AAB;
+        }
+
+        #v_alert-div-btn{
+            display: flex;
+        }
+
+#v_content{
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+
+#v_title{
+    padding-bottom: 52px;
+}
+
+#v_bank{
+    height: 455px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 58px;
+    position: relative;
+}
+
+#v_bank-detail{
+    background: white;
+    width: 50%;
+    padding-top: 24px;
+    padding-left: 31px;
+    padding-right: 32px;
+    padding-bottom: 23px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+#v_bank-detail-title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 29px;
+}
+
+.v_bank-detail-info{
+    text-align: left;
+    font-weight: 500;
+    color: #000000B2;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.v_bank-detail-info span{
+    font-weight: 400;
+    color: #1B6AAB;
+    line-height: 23px;
+}
+
+#v_bank-detail-title span{
+    font-weight: 700;
+    font-size: 18px;
+    color: #1B6AAB;
+}
+
+#v_bank button{
+    background: none;
+}
+
+#v_bank-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -10px;
+}
+
+#v_bank-1 img, #v_bank-2 img{
+    padding-bottom: 10px;
+}
+
+#v_bank-2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    top: -10px;
+}
+
+#v_bank-3{
+    position: absolute;
+    left: 27%;
+    bottom: 0;
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#v_bank-4{
+    position: absolute;
+    right: 27%;
+    bottom: 0;
+}
+
+
+#v_content-hr{
+    background: rgba(248, 153, 35, 1);
+    height: 4px;
+    width: 7%;
+    margin: 0;
+}
+
+#v_title{
+    padding-left: 71px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 4px;
+}
+
+#v_danger-1{
+    color: #FA1414;
+    font-weight: 400;
+    padding-top: 58px;
+    padding-bottom: 30px;
+}
+
+#v_danger-2{
+    color: #1B6AAB;
+    font-weight: 700;
+    width: 60%;
+    line-height: 23px;
+}
+
+#v_content-contact{
+    display: flex;
+}
+
+#v_content-contact{
+    padding-top: 37px;
+    padding-left: 70px;
+}
+
+.v_content-contact-div{
+    padding-right: 30px;
+}
+
+.v_content-contact-1{
+    cursor: pointer;
+    padding-right: 13px;
+    display: flex;
+    background: white;
+    height: 66px;
+    width: 165px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.v_content-contact-img{
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.v_content-contact-text{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+#v_techcombank{
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.14)), drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.12)), drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+#v_danger{
+    padding-left: 70px;
+}
+
+@media(max-width: 1365px){
+    #v_bank{
+        padding-left: 0;
+        padding-right: 0;
+        height: 830px;
+    }
+
+    #v_bank-detail{
+        padding-bottom: 23px;
+    }
+
+    #v_bank-1{
+        display: block;
+        position: relative;
+        padding-top: 36px;
+    }
+
+    #v_bank-2{
+        display: block;
+        position: relative;
+        left: 0;
+    }
+
+    #v_bank-3{
+        display: block;
+        width: 100%;
+        position: relative;
+        justify-content: flex-start;
+        left: 0;
+        padding-bottom: 24px;
+    }
+
+    #v_danger, #v_content-contact{
+        padding-left: 3%;
+    }
+
+    .v_content-contact-div{
+        padding-right: 21px;
+    }
+
+    #v_alert-content{
+        width: 70%;
+    }
+}
+
+@media(max-width: 767px){
+    #v_content-div-hr{
+        padding-left: 3%;
+    }
+
+    #v_title{
+        padding-left: 3%;
+    }
+    #v_content-contact{
+        flex-wrap: wrap;
+    }
+
+    #v_bank-detail{
+        width: 95%;
+    }
+
+    #v_bank{
+        height: 1015px;
+    }
+
+    .v_content-contact-div{
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
+
+    #v_danger-1{
+        width: 95%;
+    }
+
+    #v_danger-2{
+        width: 95%;
+    }
+
+    #v_alert-content{
+        width: 90%;
+    }
+
+    #v_alert-rechange{
+        position: absolute;
+    }
+
+    #v_alert-detail{
+        flex-direction: column;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
+
+@media(max-width: 374px){
+    #v_bank-1 button, #v_bank-2 button, #v_bank-3 button{
+        width: 48%;
+    }
+}

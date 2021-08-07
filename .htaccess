@@ -1,0 +1,127 @@
+RewriteEngine On
+RewriteRule ^$                                                              /home/h_home.php
+
+RewriteRule ^dang-ki-hoc-vien.html$                                         /home/signup.php
+RewriteRule ^lua-chon-dang-nhap.html$                                       /home/choose-login.php
+RewriteRule ^dang-nhap.html$                                                /home/login.php
+RewriteRule ^dang-xuat.html$                                                /code_xu_ly/v_logout.php
+RewriteRule ^xac-thuc-tai-khoan.html$                       /home/xacthuctk.php
+RewriteRule ^xac-thuc-thanh-cong/id([0-9]+)-([0-9]+)-([a-zA-Z0-9]+).html$                      /home/dangkitkthanhcong.php?id=$1&time=$2&token=$3
+RewriteRule ^quen-mat-khau.html$                                                /home/forgot_pass.php
+RewriteRule ^doi-mat-khau/id([0-9]+)-([0-9]+)-([a-zA-Z0-9]+).html$                                                /home/forgot_changepass.php?id=$1&time=$2&token=$3
+
+#Home
+RewriteRule ^khoa-hoc-offline.html$                                                             /home/h_category_offline.php
+RewriteRule ^khoa-hoc-online.html$                                                              /home/h_category_online.php
+RewriteRule ^danh-sach-hoc-vien.html$                                                          /home/h_category_student.php
+RewriteRule ^([^/]+)-student([0-9]+).html$                                                      /home/h_detail_student.php?user_id=$2
+RewriteRule ^([^/]+)-teacher([0-9]+).html$                                                      /home/h_detail_teacher.php?user_id=$2
+RewriteRule ^([^/]+)-center([0-9]+).html$                                                       /home/h_detail_center.php?center_id=$2
+RewriteRule ^([^/]+)-courseOff([0-9]+).html$                                                     /home/h_detail_course_offline.php?course_id=$2
+RewriteRule ^([^/]+)-courseOn([0-9]+).html$                                                     /home/h_detail_course_online.php?course_id=$2
+RewriteRule ^bai-hoc-([0-9]+).html$                                                             /home/h_video_course.php?course_id=$1
+RewriteRule ^hop-tac-giang-day.html$                                                            /home/l_danh-cho-nguoi-ban.php
+
+#Giang vien
+RewriteRule ^dang-ki-giang-vien.html$                                                           /home/GV-page-dang-ki-hop-tac.php
+RewriteRule ^quan-li-chung-giang-vien/id([0-9]+).html$                                                  /home/GV-index.php?id=$1
+RewriteRule ^cap-nhat-giang-vien/id([0-9]+).html$                                                       /home/GV-cap-nhat-thong-tin-TT.php?id=$1
+RewriteRule ^danh-sach-hoc-vien-da-luu/id([0-9]+)-p([0-9]+).html$                                                 /home/GV-hv-da-luu.php?id=$1&p=$2
+RewriteRule ^danh-sach-hoc-vien-mua-tu-diem/id([0-9]+)-p([0-9]+).html$                                            /home/GV-DS-hv-mua-tu-diem.php?id=$1&p=$2
+RewriteRule ^giang-vien-rut-tien/id([0-9]+).html$                                                       /home/GV-page-rut-tien.php?id=$1
+RewriteRule ^giang-vien-tao-ma-giam-gia/id([0-9]+).html$                                                /home/GV-page-tao-ma-giam-gia.php?id=$1
+RewriteRule ^giang-vien-cap-nhat-ma-giam-gia/id([0-9]+)-code([0-9]+).html$                              /home/GV-page-cap-nhat-ma-giam-gia.php?id=$1&code_id=$2
+RewriteRule ^giang-vien-quan-li-ma-giam-gia/id([0-9]+)-p([0-9]?).html$                                            /home/GV-page-quan-li-ma-giam-gia.php?id=$1&p=$2
+RewriteRule ^giang-vien-lich-su-giao-dich/id([0-9]+)-p([0-9]?).html$                                              /home/GV-lich-su-giao-dich.php?id=$1&p=$2
+RewriteRule ^giang-vien-khoa-hoc-offline/id([0-9]+)-p([0-9]?).html$                                               /home/GV-khoa-hoc-offline.php?id=$1&p=$2
+RewriteRule ^giang-vien-khoa-hoc-online/id([0-9]+)-p([0-9]?).html$                                                /home/GV-khoa-hoc-online.php?id=$1&p=$2
+RewriteRule ^giang-vien-khoa-hoc-online-da-ban/id([0-9]+)-p([0-9]?).html$                                                /home/GV-khoa-hoc-da-ban.php?id=$1&p=$2
+RewriteRule ^giang-vien-khoa-hoc-offline-da-dat-cho/id([0-9]+)-p([0-9]?).html$                                                /home/GV-khoa-hoc-offline-da-dat-cho.php?id=$1&p=$2
+RewriteRule ^quan-li-danh-gia-cua-hoc-vien/id([0-9]+)-p([0-9]?).html$                                             /home/GV-Quan-li-danh-gia-cua-hoc-vien.php?id=$1&p=$2
+RewriteRule ^danh-sach-hoc-vien-dang-cho-mua-chung/id([0-9]+)-p([0-9]?).html$                                     /home/GV-DS-hv-dang-cho-mua-chung.php?id=$1&p=$2
+RewriteRule ^giang-vien-doi-mat-khau/id([0-9]+).html$                                                   /home/GV-doi-mat-khau.php?id=$1
+
+RewriteRule ^tao-khoa-hoc-online-giang-vien/id([0-9]+).html$                                          /home/h_create_class_online_GV.php?id=$1
+RewriteRule ^tao-khoa-hoc-offline-giang-vien/id([0-9]+).html$                                         /home/h_create_class_offline_GV.php?id=$1
+RewriteRule ^tao-khoa-hoc-online-trung-tam/id([0-9]+).html$                                          /home/h_create_class_online_TT.php?id=$1
+RewriteRule ^tao-khoa-hoc-offline-trung-tam/id([0-9]+).html$                                         /home/h_create_class_offline_TT.php?id=$1
+RewriteRule ^tao-khoa-hoc-online-next/id([0-9]+).html$                                               /home/h_create_class_online_NEXT.php?id=$1
+
+RewriteRule ^cap-nhat-khoa-hoc-offline-trung-tam/id([0-9]+)-courseOf([0-9]+).html$                        /home/h_update_class_offline_TT.php?course_id=$2
+RewriteRule ^cap-nhat-khoa-hoc-offline-giang-vien/id([0-9]+)-courseOf([0-9]+).html$                       /home/h_update_class_offline_GV.php?course_id=$2
+RewriteRule ^cap-nhat-khoa-hoc-online-trung-tam/id([0-9]+)-courseOn([0-9]+).html$                        /home/h_update_class_online_TT.php?course_id=$2
+RewriteRule ^cap-nhat-khoa-hoc-online-giang-vien/id([0-9]+)-courseOn([0-9]+).html$                       /home/h_update_class_online_GV.php?course_id=$2
+RewriteRule ^cap-nhat-khoa-hoc-online-next/id([0-9]+)-courseOn([0-9]+).html$                            /home/h_update_class_online_NEXT.php?user_id=$1&course_id=$2
+
+#Mua-Hang
+RewriteRule ^mua-khoa-hoc-ngay/id([0-9]+)-course([0-9]+).html$                                      /home/h_order_now.php?id=$1&course_id=$2
+RewriteRule ^mua-khoa-hoc-thanh-cong/id([0-9]+)-course([0-9]+).html$                                               /home/h_order_complete.php?id=$1&course_id=$2
+RewriteRule ^mua-khoa-hoc-chung/course([0-9]+).html$                                                /home/h_order_common.php?course_id=$1
+RewriteRule ^them-gio-hang/course([0-9]+).html$                                                     /code_xu_ly/h_add_cart.php?course_id=$1
+RewriteRule ^gio-hang/id([0-9]+).html$                                                              /home/h_order_cart.php?id=$1
+RewriteRule ^xoa-gio-hang/course([0-9]+).html$                                                      /code_xu_ly/h_del_cart.php?course_id=$1
+
+
+
+#Hoc-vien
+RewriteRule ^thong-tin-hoc-vien/id([0-9]+).html                                                         /home/HV_page_thong_tin_ca_nhan.php?id=$1
+RewriteRule ^quan-li-chung-hoc-vien/id([0-9]+).html$                                                    /home/HV-index.php?id=$1
+
+RewriteRule ^hoc-vien-khoa-hoc-online-da-mua/id([0-9]+).html$                                           /home/HV-DS-khoa-hoc-online.php?id=$1&p=$2
+
+RewriteRule ^hoc-vien-khoa-hoc-offline-da-dat-cho/id([0-9]+).html$                                          /home/HV-DS-khoa-hoc-offline.php?id=$1&p=$2
+RewriteRule ^hoc-vien-khoa-hoc-online-da-luu/id([0-9]+).html$                                           /home/HV-DS-khoa-hoc-da-luu-online.php?id=$1&p=$2
+RewriteRule ^hoc-vien-khoa-hoc-offline-da-luu/id([0-9]+).html$                                          /home/HV-DS-khoa-hoc-da-luu-offline.php?id=$1&p=$2
+RewriteRule ^hoc-vien-khoa-hoc-mua-chung/id([0-9]+).html$                                               /home/HV_page_khoa_hoc_mua_chung.php?id=$1
+RewriteRule ^hoc-vien-giang-vien-da-luu/id([0-9]+).html$                                                /home/HV_page_ds_giang_vien_da_luu.php?id=$1
+RewriteRule ^hoc-vien-trung-tam-da-luu/id([0-9]+).html$                                                 /home/HV_page_trung_tam-da_luu.php?id=$1&page=$2
+RewriteRule ^nap-tien/id([0-9]+).html$                                                         /home/HV_page_nap_tien_tk.php?id=$1&page=$2
+RewriteRule ^hoc-vien-lich-su-mua-khoa-hoc/id([0-9]+).html$                                             /home/HV_page_lich_su_mua_hang.php?id=$1&p=$2
+RewriteRule ^lich-su-nap-tien/id([0-9]+).html$                                                 /home/HV_page_lich_su_nap_tien.php?id=$1&p=$2
+
+
+#Search
+#Offline
+RewriteRule ^([^/]+)-v([0-9]+).html$                                           /home/h_search_offline.php?cate_id=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^([^/]+)-h([0-9]+).html$                                           /home/h_search_offline.php?tag_id=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^([^/]+)-h([0-9]+)c([0-9]+).html$                    /home/h_search_offline.php?tag_id=$2&cit_id=$3&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^([^/]+)-v([0-9]+)c([0-9]+).html$                    /home/h_search_offline.php?cate_id=$2&cit_id=$3&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^([^/]+)-c([0-9]+).html$                                        /home/h_search_offline.php?cit_id=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^khoa-hoc-offline                                                                    /home/h_search_offline.php?&%{QUERY_STRING} [NE,L]
+
+#Online
+RewriteRule ^([^/]+)-l([0-9]+).html$                                           /home/h_search_online.php?cate_id=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^([^/]+)-t([0-9]+).html$                                           /home/h_search_online.php?tag_id=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^khoa-hoc-online                                                                    /home/h_search_online.php?&%{QUERY_STRING} [NE,L]
+
+#Trung Tâm
+RewriteRule ^dang-ki-trung-tam.html$                                                                         /home/tt_themthanhvien.php
+RewriteRule ^quan-li-chung-trung-tam/id([0-9]+).html$                                                        /home/tt_trangchu.php?id=$1
+RewriteRule ^trung-tam-hoc-vien-da-luu/id([0-9]+)&page([0-9]+).html$                                         /home/tt_hocviendaluu.php?id=$1&page=$2
+RewriteRule ^trung-tam-hoc-vien-mua-tu-diem/id([0-9]+)&page([0-9]+).html$                                    /home/tt_hvMuaTuDien.php?id=$1&page=$2
+RewriteRule ^trung-tam-khoa-hoc-online-giang-day/id([0-9]+)&page([0-9]+).html$                               /home/tt_onlinegiangday.php?id=$1&page=$2
+
+RewriteRule ^trung-tam-khoa-hoc-offline-giang-day/id([0-9]+)&page([0-9]+).html$                              /home/tt_offlinegiangday.php?id=$1&page=$2
+
+RewriteRule ^trung-tam-khoa-hoc-online-da-ban/id([0-9]+)&page([0-9]+).html$                                  /home/tt_onlinedaban.php?id=$1&page=$2
+
+RewriteRule ^trung-tam-khoa-hoc-offline-da-dat-cho/id([0-9]+)&page([0-9]+).html$                                 /home/tt_offlinedaban.php?id=$1&page=$2
+
+RewriteRule ^trung-tam-danh-sach-danh-gia/id([0-9]+)&page([0-9]+).html$                                      /home/tt_dsdanhgia.php?id=$1&page=$2
+RewriteRule ^trung-tam-khoa-hoc-mua-chung/id([0-9]+)&page([0-9]+).html$                                      /home/tt_muachung.php?id=$1&page=$2
+RewriteRule ^trung-tam-danh-sach-giang-vien/id([0-9]+)&page([0-9]+).html$                                    /home/tt_dsgiangvien.php?id=$1&page=$2
+RewriteRule ^trung-tam-lich-su-rut-tien/id([0-9]+)&page([0-9]+).html$                                       /home/tt_lichsugiaodich.php?id=$1&page=$2
+RewriteRule ^trung-tam-rut-tien/id([0-9]+).html$                                                             /home/tt_ruttien.php?id=$1
+RewriteRule ^trung-tam-tao-ma-giam-gia/id([0-9]+).html$                                                      /home/tt_magiamgia.php?id=$1
+RewriteRule ^trung-tam-quan-li-ma-giam-gia/id([0-9]+)&page([0-9]+).html$                                     /home/tt_qlmagiamgia.php?id=$1&page=$2
+RewriteRule ^trung-tam-cap-nhat-thong-tin/id([0-9]+).html$                                                   /home/tt_capnhatthongtin.php?id=$1
+RewriteRule ^trung-tam-them-giang-vien/id([0-9]+).html$                                                      /home/tt_themgiangvien.php?id=$1
+RewriteRule ^trung-tam-cap-nhat-giang-vien-GV([0-9]+)/id([0-9]+).html$                                       /home/tt_editGiangVien.php?gv=$1&&id=$2
+RewriteRule ^trung-tam-cap-nhat-ma-giam-gia([0-9]+)/id([0-9]+).html$                                         /home/tt_editMaGiamGia.php?ma=$1&&id=$2

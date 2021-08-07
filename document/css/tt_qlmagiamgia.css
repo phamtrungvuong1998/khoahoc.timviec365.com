@@ -1,0 +1,187 @@
+.l_phantrang {
+    clear: left;
+    text-align: center;
+    padding: 18px 0px 20px;
+}
+
+.l_phantrang_btn {
+    margin-right: 10px;
+    padding: 6px 12px;
+    background: no-repeat;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: black;
+}
+
+.l_phantrang_btn1 {
+    margin-right: 10px;
+    padding: 6px 12px;
+    background: no-repeat;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #1B6AAB;
+    color: rgb(255, 255, 255);
+}
+
+.l_ma {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 149%;
+    color: #1B6AAB;
+}
+.l_csd{
+    color: #F89923;
+}
+.l_qlmgg {
+    width: 95%;
+    margin: 50px auto 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.l_hr {
+    border: none;
+    border-top: 4px solid rgba(248, 153, 35, 1);
+    width: 5%;
+}
+
+.l_han {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 149%;
+    color: #FA1414;
+}
+
+.l_content {
+    width: 95%;
+    margin: 30px auto;
+    display: table;
+    border-collapse: collapse;
+}
+
+.l_content-title {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: table-row;
+    background: #F4F2FF;
+    font-weight: 700;
+    color: #1B6AAB;
+    border-radius: 8px 8px 0 0;
+}
+
+.l_content-title div {
+    font-size: 14px;
+}
+
+.l_table-cell {
+    display: table-cell;
+    padding: 20px 10px 20px 10px;
+}
+
+.l_noidungkh {
+    display: table-row;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.l_magiangia,
+.l_qlmagiamgia {
+    color: #096ed1;
+}
+
+.l_btn_edit {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.l_hienthi_chinhsua {
+    background: #FFFFFF;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 70%;
+    z-index: 1;
+}
+
+.l_btn_chinhsua {
+    display: flex;
+    width: 139px;
+    height: 36px;
+    background: #1B6AAB;
+    border-radius: 4px;
+    justify-content: center;
+    outline: none;
+    border: none;
+}
+
+.l_trangthai {
+    cursor: pointer;
+    position: relative;
+}
+
+.l_chinhsuachu {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 149%;
+    color: #FFFFFF;
+    margin: auto 5px;
+}
+
+.l_img_chinhsua {
+    margin: auto 5px;
+}
+
+.l_sudung {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 149%;
+    color: #1B6AAB;
+}
+
+.l_sd {
+    color: #1B6AAB;
+}
+
+.l_han {
+    color: #d82222;
+}
+
+.l_show {
+    display: block;
+}
+
+#myDropdown3 {
+    display: block !important;
+}
+
+.l_dropmagiamgia {
+    display: block;
+}
+
+.l_font_size {
+    text-align: center;
+    font-size: 22px;
+    color: #1B6AAB;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1366px) {
+    .l_right {
+        width: 100%;
+    }
+}

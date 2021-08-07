@@ -1,0 +1,286 @@
+@font-face {
+    font-family: IBMPlexSans;
+    src: url(../fonts/IBMPlexSans-Medium.woff2);
+    font-display: swap
+}
+
+header {
+    height: 73px;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .14), 0 1px 10px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .2);
+    position: relative
+}
+
+main {
+    text-align: left;
+    padding-bottom: 20px;
+    background: #f7f7f7
+}
+
+.orange {
+    color: #f89923 !important
+}
+
+.shower {
+    display: block !important
+}
+#btn_top_img{
+    top: 22px !important;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    font-family: IBMPlexSans, sans-serif !important;
+    font-style: normal
+}
+
+header .container .logo1 {
+    float: left
+}
+
+.logo1 img {
+    margin-top: 8px;
+}
+
+.header-user-avatar {
+    float: left;
+    cursor: pointer;
+}
+#btn_top_img{
+    top: 22px;
+}
+.header-menu-pc {
+    list-style: none;
+    margin-right: 35px;
+    display: flex;
+    float: left
+}
+
+header a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000;
+    font-weight: 400
+}
+
+.header-menu {
+    float: right;
+    margin: 20px 0 10px 0;
+    position: relative;
+}
+
+.header-menu-pc li {
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 32px;
+    margin-top: 8px
+}
+
+.header-signin-signup {
+    margin-bottom: 15px;
+    display: flex
+}
+
+.signin-signup a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1b6aab;
+    border: 1px solid rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 9px 16px 9px 16px;
+    margin-right: 8px
+}
+
+.become-teacher {
+    background: #1b6aab;
+    border-radius: 4px;
+    padding: 8px 15px 6px 15px;
+}
+
+.become-teacher a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff
+}
+
+.header-mb {
+    display: none
+}
+
+#header-user-avatar2 {
+    display: none;
+    background: #fff;
+    box-shadow: 0 24px 38px rgba(0, 0, 0, .14), 0 9px 46px rgba(0, 0, 0, .12), 0 11px 15px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    position: absolute;
+    width: 218px;
+    height: auto;
+    padding-bottom: 10px;
+    top: 44px;
+    right: 0;
+    z-index: 20;
+}
+
+#header-user-avatar2 a,
+#header-user-avatar2 p,
+#header-user-avatar2 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px
+}
+
+.user-avatar2 {
+    margin-top: 17px;
+    text-align: center
+}
+
+.user-avatar2 h4 {
+    color: #1b6aab;
+    margin-top: 8px;
+    margin-bottom: 18px
+}
+
+.user-avatar2 span {
+    color: #f89923
+}
+
+#header-user-avatar2 a {
+    color: rgba(0, 0, 0, .7)
+}
+
+#header-user-avatar2 ul {
+    margin-top: 24px;
+    margin-left: 10px
+}
+
+#header-user-avatar2 ul li {
+    margin-top: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .12)
+}
+
+#header-user-avatar2 ul li img {
+    margin-right: 12px
+}
+
+#btn-top img {
+    margin-top: -8px
+}
+
+#moneys {
+    text-align: center
+}
+
+#moneys span {
+    color: #f89923
+}
+
+.togglett {
+    margin-left: 30px;
+    display: none
+}
+
+@media only screen and (max-width:1279px) {
+    .img-name img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px
+    }
+    header .container {
+        display: flex;
+        width: 100%
+    }
+    .logo1{
+        float: none;
+    }
+    .logo1 img {
+        margin-top: 0;
+    }
+    .header-mb {
+        left: 15px;
+        display: block;
+        margin-top: 10px;
+        position: absolute
+    }
+    .header-menu,
+    .header-signin-signup {
+        display: none
+    }
+    .logo1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 4px
+    }
+    #modal-id .modal-header {
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 0, .12) !important
+    }
+    .modal-logo img {
+        margin-bottom: 10px;
+        width: 138px;
+        height: 49px;
+        border-radius: 20px
+    }
+    #modal-id .modal-dialog {
+        width: 311px;
+        margin: 0
+    }
+    #modal-id .modal-content {
+        border-radius: 0
+    }
+    .header-menu-mb li {
+        margin-top: 32px;
+        margin-left: 24px
+    }
+    .become-teacher {
+        margin-top: 0;
+        padding: 9px 0 9px 16px;
+        width: 75%
+    }
+    .header-signin-signup-mb .signin-signup {
+        margin-top: 27px;
+        margin-bottom: 20px
+    }
+    .img-name {
+        margin-top: 36px;
+        text-align: center
+    }
+    .img-name h3 {
+        color: #000;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 138%;
+        letter-spacing: .0075em
+    }
+    .header-mb-user {
+        margin-top: 36px;
+        margin-bottom: 30px;
+        border-top: 1px solid rgba(0, 0, 0, .12) !important
+    }
+    .header-mb-user ul li {
+        margin-top: 18px
+    }
+    .header-mb-user ul li a {
+        margin-left: 10px;
+        margin-right: 29px
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .header-mb {
+        left: 15px;
+        position: absolute
+    }
+}

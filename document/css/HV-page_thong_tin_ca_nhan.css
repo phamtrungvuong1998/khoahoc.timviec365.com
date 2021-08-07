@@ -1,0 +1,528 @@
+#main{
+    background: #E5E5E5;
+}
+
+#content-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.alert-danger{
+    position: fixed;
+    width: 20%;
+    top: 20px;
+    right: 1%;
+    z-index: 1;
+    background: #f2dede;
+    color: #a94442;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+#v_anh-dai-dien{
+    cursor: pointer;
+    margin: 48px auto;
+    position: relative;
+}
+
+#v_anh-dai-dien{
+    width: 110px;
+    height: 110px;
+}
+
+#avatar{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+#v_update-avatar{
+    position: absolute;
+    top: 31px;
+    left: 31px;
+}
+
+#content{
+    padding-top: 48px;
+    padding-bottom: 42px;
+    background: white;
+    width: 90%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#content-div{
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-div-div{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+#v_thong-tin-tk{
+    flex-basis: 60%;
+}
+
+#v_chi-tiet{
+    color: #1B6AAB;
+    flex-basis: 5.5%;
+    cursor: pointer;
+}
+
+#v_doi-mk{
+    flex-basis: 16.5%;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0;
+}
+
+form{
+    padding-top: 48px;
+}
+
+#v_form{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.v_form-div{
+    flex-basis: 45%;
+}
+
+#v_form-div-div{
+    padding-top: 16px;
+}
+
+.v_form-p{
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 7px;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+#v_gender-all{
+    position: relative;
+}
+
+#v_gender-all input{
+    padding-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.v_input-1, .v_input-3, select{
+    padding-left: 22px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.v_input-1:hover{
+    border: 1px solid rgba(27, 106, 171, 1);
+}
+
+select:hover{
+    border: 1px solid rgba(27, 106, 171, 1);
+}
+
+.v_input-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#v_gender-nam{
+    padding-right: 25px;
+}
+
+span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.v_gender{
+    padding-left: 7px;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    bottom: 6px;
+}
+
+#v_form-p-gender{
+    padding-bottom: 15px;
+}
+
+#v_address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.v_address-div{
+    flex-basis: 45%;
+}
+
+select{
+    background: white;
+}
+
+#v_submit{
+    padding-top: 33px;
+    padding-bottom: 48px;
+}
+
+#v_submit-input{
+    border: none;
+    width: 103px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    background: rgba(248, 153, 35, 1);
+    border-radius: 4px;
+    border-color: rgba(248, 153, 35, 1);
+}
+
+#v_mh-quan-tam{
+    text-align: left;
+    flex-basis: 93%;
+}
+
+
+#v_them-theme-div{
+    cursor: pointer;
+}
+
+#v_them-theme-div p{
+    display: inline-block;
+    color: #1B6AAB;
+    padding-top: 4px;
+}
+
+#v_them-theme-detail{
+    position: absolute;
+    display: none;
+    z-index: 5;
+    background: white;
+    margin-top: 16px;
+    width: 224px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    text-align: left;
+    padding: 19px 22px 47px 12px;
+}
+
+#v_them-theme-detail p{
+    padding-bottom: 5px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+#v_theme{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.v_theme-detail{
+    border: none;
+    background: #F2F2F2;
+    border-radius: 16px;
+    padding: 4px 8px 4px 8px;
+    margin-right: 8px;
+    color: #1B6AAB;
+    margin-bottom: 8px;
+}
+
+.v_theme-detail:last-child{
+    margin-right: 0;
+}
+
+.v_theme-detail-img{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -2px;
+    padding-left: 8px;
+}
+
+#v_them-theme img{
+    margin-top: -4px;
+}
+
+#v_form-1{
+    padding-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+
+.v_form-div-div-1{
+    flex-basis: 50%;
+    padding-bottom: 21px;
+    position: relative;
+}
+
+.v_form-div-div-1 input{
+    width: 90%;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.v_form-div-div-2{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.v_form-div-div-2 input{
+    width: 90%;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.v_doi-pass{
+    position: absolute;
+    top: 58px;
+    left: 83%;
+    cursor: pointer;
+}
+
+#v_info0{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.v_doi-pass-1{
+    position: absolute;
+    top: 58px;
+    left: 83%;
+    cursor: pointer;
+}
+
+#v_info1{
+    border-bottom: 1px solid #1B6AAB;
+}
+
+#v_info2{
+    width: 62%;
+}
+
+#v_xem-pass-btn{
+    border: none;
+    background: #1B6AAB;
+    color: white;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 33px;
+}
+
+#v_doi-password{
+    display: none;
+}
+
+.select2-container--default .select2-selection--single{
+    height: 45px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-top: 7px;
+}
+/*.select2-container{
+    width: 100% !important;
+}*/
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    float: right;
+    margin-left: 10px;
+    color: #1B6AAB;
+    border-radius: 100px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    padding: 4px 4px 4px 8px;
+    border: none;
+    border-radius: 16px;
+    color: #1B6AAB;
+    margin-right: 10px;
+}
+
+.select2-container--default .select2-selection--multiple{
+    width: 100%;
+    border: 1px solid #0000001F;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-left: 15px;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    border: 1px solid #0000001F;
+}
+
+@media (max-width: 1365px){
+    #v_chi-tiet{
+        flex-basis: 19.5%;
+    }
+    #v_info1{
+        width: 40%;
+    }
+
+    #v_thong-tin-tk{
+        flex-basis: 43%;
+    }
+
+
+    #v_info2{
+        width: 86%;
+    }
+    .alert-danger{
+        width: 50%;
+    }
+    #v_submit-input{
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+        background: #1B6AAB;
+        width: 106px;
+        border-color: #1B6AAB;
+    }
+
+    .v_address-div{
+        flex-basis: 100%;
+    }
+
+    #v_address{
+        flex-wrap: wrap;
+    }
+
+    #v_gender-all {
+        flex-basis: 100%;
+    }
+
+    .v_input-2{
+        flex-wrap: wrap-reverse;
+    }
+
+    #v_form-p-gender{
+        padding-bottom: 11px;
+    }
+
+    #v_sdt{
+        flex-basis: 100%;
+    }
+
+    .v_doi-pass{
+        left: 80%;
+    }
+
+    .v_doi-pass-1{
+        left: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .alert-danger{
+        width: 98%;
+    }
+    #v_info1{
+        width: 70%;
+    }
+
+    #v_info1,#v_info2{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 400;
+    }
+
+    #content{
+        display: block; 
+    }
+
+    #v_ds-mh-qt{
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .content-div-div{
+        font-size: 14px;
+    }
+
+    #v_thong-tin-tk{
+        flex-basis: 41%;
+    }
+    
+    #v_chi-tiet{
+        flex-basis: 20%;
+    }
+    
+    #v_doi-mk{
+        flex-basis: 30%;
+    }
+
+    .v_form-div{
+        flex-basis: 90%;
+    }
+
+    .v_input-2{
+        flex-wrap: wrap;
+    }
+
+    #v_gender-all{
+        flex-basis: 100%;
+        padding-bottom: 16px;
+    }
+
+    #v_sdt{
+        flex-basis: 100%;
+    }
+
+    .v_form-div-div-1{
+        flex-basis: 100%;
+    }
+
+    .v_form-div-div-2{
+        flex-basis: 100%;
+        padding-bottom: 21px;
+    }
+
+    .v_form-div-div-1 input{
+        width: 100%;
+    }
+
+    .v_form-div-div-2 input{
+        width: 100%;
+    }
+
+    #v_form-div-div-1{
+        display: none;
+    }
+
+    .v_doi-pass {
+        left: 90%;
+    }
+
+    .v_doi-pass-1 {
+        left: 90%;
+    }
+}
+
+@media (max-width: 374px){
+    #v_thong-tin-tk{
+        flex-basis: 50%;
+    }
+    #v_info1{
+        width: 90%;
+    }
+    #v_info2{
+        width: 100%;
+    }
+}
+
+

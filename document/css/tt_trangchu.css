@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.l_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l_right {
+    width: 73.9%;
+}
+
+.l_flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.l_content {
+    width: 150px;
+    height: 280px;
+}
+
+.l_content_img {
+    width: 150px;
+    height: 150px;
+    background: #FAF8F6;
+    box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgb(27 106 171 / 30%);
+    border-radius: 16px;
+    text-align: center;
+    padding: 0px;
+}
+
+.l_content_img img {
+    padding: 25%;
+}
+
+.l_content_text {
+    margin: 36px 0px 8px;
+    text-align: center;
+}
+
+.l_content_text1 {
+    margin: 8px 0px 8px;
+    text-align: center;
+}
+
+.l_online {
+    width: 94%;
+    margin: 0px auto 50px;
+}
+
+.l_khoaonline_1 {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+}
+
+.l_khoaonline {
+    width: 30%;
+    margin: 0 1.5%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.l_online_top_img {
+    height: 195px;
+    width: 100%;
+}
+
+.l_like {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.l_online_top {
+    width: 100%;
+    height: 194px;
+    position: relative;
+}
+
+.l_detail {
+    background: #1B6AAB;
+    border-radius: 4px;
+    width: 84%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+    right: 8%;
+}
+
+.l_detail_img {
+    margin: auto;
+}
+
+.l_detail_img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.l_detail_item {
+    margin: auto;
+    width: 70%;
+}
+
+.l_detail_item1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    height: 25px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.l_detail_item2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffffb0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    height: 25px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.l_online_title {
+    text-align: left;
+    margin: 16px;
+    padding: 0px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.l_star {
+    margin: 6px 0px 0px 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.l_info_detail {
+    flex-basis: auto;
+    height: auto;
+    padding: 9px 15px;
+}
+
+.l_info_detail img {
+    margin-right: 5px;
+}
+
+.l_content-hr {
+    border: 4px solid rgba(248, 153, 35, 1);
+    width: 5%;
+    padding-left: 26px;
+}
+
+.l_content-2 {
+    padding-bottom: 50px;
+}
+
+.l_content-2-title {
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.l_flex_star {
+    display: flex;
+    margin: 13px;
+}
+
+.l_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 16px;
+}
+
+.l_songuoidk {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-bottom: 22px;
+}
+
+.l_chinhsua {
+    padding-left: 5%;
+    padding-bottom: 30px;
+}
+
+.l_chinhsua button {
+    background: rgba(27, 106, 171, 1);
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border-color: rgba(27, 106, 171, 1);
+    border-radius: 4px;
+    text-align: center;
+    width: 124px;
+    height: 36px;
+}
+
+.l_content-2-hr {
+    width: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.l_color {
+    color: black !important;
+}
+
+.l_trangchu {
+    color: #096ed1;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1366px) {
+    .l_right {
+        width: 100%;
+    }
+    .l_none {
+        display: none;
+    }
+    .l_khoaonline {
+        width: 31%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 767.9px) {
+    .l_right {
+        width: 100%;
+    }
+    .l_flex {
+        flex-wrap: wrap;
+    }
+    .l_content {
+        width: 50%;
+    }
+    .l_content_img {
+        margin: 0px auto;
+    }
+    .l_none {
+        display: none;
+    }
+    .l_khoaonline_1 {
+        flex-wrap: wrap;
+    }
+    .l_khoaonline {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}

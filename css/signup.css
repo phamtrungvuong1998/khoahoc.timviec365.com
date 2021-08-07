@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.flex{
+    display: flex;
+}
+
+#main{
+    background: #E5E5E5;
+}
+input{
+    padding-left: 15px;
+}
+/* Begin: content */
+#content-box{
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+#content{
+    background: #FFFFFF;
+    width: 614px;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 14%), 0px 1px 18px rgb(0 0 0 / 12%), 0px 3px 5px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+}
+
+#content-title{
+    font-size: 36px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+
+.signup-input{
+    padding-bottom: 21px;
+}
+
+
+.signup-input input{
+    height: 56px;
+    width: 549px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#xacnhan{
+    justify-content: center;
+}
+
+#btn-ttk{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#taotaikhoan{
+    border: none;
+    background: #1B6AAB;
+    color: white;
+    padding-left: 0;
+    border-radius: 36px;
+    width: 136px;
+    height: 36px;
+    font-size: 14px;
+}
+#taotaikhoan-span{
+    color: white;
+    font-size: 14px;
+}
+
+#singup_img{
+    display: none;
+    margin: 0 auto;
+}
+
+form > div a{
+    text-decoration: none;
+    color: #1B6AAB;
+}
+
+#dacotk{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+/* End: content */
+
+
+@media (max-width: 1365px){
+    :root{
+        --w-s: calc(100/768);
+    }
+
+    #content-box{
+        padding-top: 48px;
+        padding-bottom: 100px;
+        padding-left: calc(77vw*var(--w-s));
+        padding-right: calc(77vw*var(--w-s));
+    }
+
+}
+
+@media (max-width: 767px){
+
+    #content-box{
+        padding-top: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #content{
+        width: 343px;
+    }
+
+    #content-title{
+        font-size: 30px;
+        padding: 16px 53px 30px 53px;
+    }
+
+    .signup-input{
+        padding: 0 8px 20px 8px;
+    }
+
+    .signup-input input{
+        height: 56px;
+        width: 90%;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    #xacnhan{
+        padding: 0 8px 20px 8px;
+    }
+
+    #btn-ttk{
+        padding: 0 107px 32px 99px;
+    }
+
+    #dacotk{
+        padding: 0 55px 32px 55px;
+    }
+
+}

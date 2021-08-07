@@ -1,0 +1,47 @@
+.first3 .form-group:first-child{
+    padding-right: 2.5%;
+}
+
+.first3 .form-group:last-child{
+    padding-left: 2.5%;
+}
+
+.first3 input{
+    width: 65%;
+}
+
+.form-group2{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#month_study{
+    width: 65% !important;
+}
+
+.first .first3:last-child{
+    padding-bottom: 33px;
+}
+
+.first, .post6{
+    width: 100%;
+}
+
+.postright{
+    width: 100%;
+}
+
+.post-item{
+    position: relative;
+}
+
+.clear1{
+    position: absolute;
+    right: 18px;
+}
+
+.move1{
+    position: absolute;
+    right: 45px;
+    top: 15px;
+}

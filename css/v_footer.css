@@ -1,0 +1,531 @@
+
+.flex-pc{
+    display: flex;
+}
+
+/* Begin: footer */
+#footer{
+    background: linear-gradient(171.1deg, #175B9C 13.02%, #2482DC 99.62%);
+
+}
+
+.footer-pc-title{
+    display: flex;
+}
+
+#footer-title div{
+    justify-content: center;
+}
+
+#footer-title > center h3{
+    padding-top: 27px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+#footer-title > center p{
+    margin-top: 0;
+    color: white;
+    padding-bottom: 31px;
+    font-weight: 400;
+}
+
+#footer-2{
+    justify-content: space-around;
+    padding-top: 66px;
+    flex-wrap: wrap;
+}
+
+.v_footer-2-content{
+    flex-basis: 30%;
+}
+
+.v_footer-2-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.contact{
+    padding-bottom: 16px;
+}
+
+.contact p{
+    font-weight: 700;
+    color: white;
+    padding-right: 10px;
+}
+
+.contact span{
+    font-weight: 500;
+    color: white;
+}
+
+.v_cham{
+    width: 7px;
+    height: 7px;
+}
+
+.contact a{
+    color: #FFEB36;
+}
+
+#logo2{
+    padding-top: 18px;
+}
+
+#mangxahoi{
+    padding-top: 29px;
+    padding-left: 77px;
+}
+
+.app{
+    background: white;
+    width: 204px;
+    height: 42px;
+    border-radius: 30px;
+    margin-bottom: 14px;
+}
+
+#apptimviec{
+    width: 40px;
+    height: 40px;
+}
+
+#cv365{
+    width: 44px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.v_app-text{
+    padding-top: 13px;
+    color: #0D4778;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#footer-3{
+    background: #1A6CBA;
+    background-size: 57px;
+    padding-bottom: 17px;
+    position: relative;
+}
+
+#footer-3-1{
+    padding-top: 16px;
+    margin-top: 46px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footer-3 p{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.v_footer-3-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.v_footer-3-text a{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#v_mangxahoi-2{
+    display: none;
+}
+
+#v_vedautrang{
+    position: absolute;
+    right: 33px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 1365px){
+    #footer-title > center h3{
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+
+    .footer-pc-title{
+        flex-direction: column;
+    }
+
+    #footer-title > center p{
+        padding-bottom: 3px;
+    }
+    .v_footer-2-content{
+        flex-basis: 45%;
+    }
+
+    #thuongmaidt{
+        padding-top: 38px;
+        text-align: center;
+    }
+
+    #v_app-all{
+        display: flex;
+    }
+    
+    #v_app-all > div{
+        margin-right: 14px;
+    }
+
+    #mangxahoi{
+        display: none;
+    }
+
+    #footer-3{
+        background-size: 137px;
+    }
+
+    #v_mangxahoi-2{
+        display: flex;
+        justify-content: center;
+        padding-top: 19px;
+        padding-bottom: 21px;
+    }
+
+    #v_vedautrang{
+        position: absolute;
+        right: 33px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 767px){
+
+    #footer-title > center h3{
+        font-size: 17px;
+        padding-bottom: 7px;
+    }
+
+    .v_footer-2-content{
+        flex-basis: 90%;
+    }
+
+    #footer-title > center p{
+        padding-bottom: 3px;
+        font-size: 14px;
+    }
+
+    .v_footer-2-content h3{
+        text-align: center;
+    }
+
+    #v_web-doitac{
+        padding-top: 30px;
+    }
+
+    .app{
+        width: 159px;
+        height: 33px;
+        margin-right: 11px;
+    }
+
+    .v_app-text{
+        font-size: 13px;
+        padding-top: 9px;
+    }
+
+    #apptimviec{
+        width: 31px;
+        height: 31px;
+    }
+
+    #cv365{
+        width: 34px;
+        height: 17px;
+    }
+
+    .footer-p-title {
+        line-height: 170%;
+        padding-top: 0;
+    }
+}
+
+
+/* End: footer */
+
+.flex-pc {
+    display: flex;
+}
+
+
+/* Begin: footer */
+
+#footer {
+    background: linear-gradient(171.1deg, #175b9c 13.02%, #2482dc 99.62%);
+}
+
+.footer-pc-title {
+    display: flex;
+}
+
+.zxczxczxc {
+    text-emphasis: none;
+}
+
+#footer-title div {
+    justify-content: center;
+}
+
+#footer-title>center h3 {
+    padding-top: 27px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+#footer-title>center p {
+    margin-top: 0;
+    color: white;
+    padding-bottom: 31px;
+    font-weight: 400;
+}
+
+#footer-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 66px;
+    flex-wrap: wrap;
+}
+
+.v_footer-2-content {
+    flex-basis: 30%;
+}
+
+.v_footer-2-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.contact {
+    padding-bottom: 16px;
+    display: flex;
+}
+
+.contact p {
+    font-weight: 700;
+    color: white;
+    padding-right: 10px;
+}
+
+.contact span {
+    font-weight: 500;
+    color: white;
+}
+
+.v_footer-2-img {
+    width: 25px;
+    height: 25px;
+}
+
+.v_cham {
+    width: 7px;
+    height: 7px;
+}
+
+.contact a {
+    color: #ffeb36;
+}
+
+#logo2 {
+    padding-top: 18px;
+}
+
+#mangxahoi {
+    display: flex;
+    padding-top: 29px;
+    padding-left: 77px;
+}
+
+.app {
+    background: white;
+    width: 204px;
+    height: 42px;
+    border-radius: 30px;
+    margin-bottom: 14px;
+}
+
+.app a{
+    display: flex;
+}
+
+#apptimviec {
+    width: 40px;
+    height: 40px;
+}
+
+#cv365 {
+    width: 44px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+#v_thongtin{
+    display: flex;
+}
+
+.v_app-text {
+    padding-top: 13px;
+    color: #0d4778;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#footer-3 {
+    background: #1a6cba;
+    background-size: 57px;
+    padding-bottom: 17px;
+    position: relative;
+}
+
+#footer-3-1 {
+    display: flex;
+    padding-top: 16px;
+    margin-top: 46px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footer-3 p {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.v_footer-3-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#v_mangxahoi-2 {
+    display: none;
+}
+
+#v_vedautrang {
+    position: absolute;
+    right: 33px;
+    bottom: 30px;
+}
+
+@media (max-width: 1365px) {
+    #footer-title>center h3 {
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+    .footer-pc-title {
+        flex-direction: column;
+    }
+    #footer-title>center p {
+        padding-bottom: 3px;
+    }
+    .v_footer-2-content {
+        flex-basis: 45%;
+    }
+    #thuongmaidt {
+        padding-top: 38px;
+        text-align: center;
+    }
+    #v_app-all {
+        display: flex;
+    }
+    #v_app-all>div {
+        margin-right: 14px;
+    }
+    #mangxahoi {
+        display: none;
+    }
+    #footer-3 {
+        background-size: 137px;
+    }
+    #v_mangxahoi-2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 19px;
+        padding-bottom: 21px;
+    }
+    #v_vedautrang {
+        position: absolute;
+        right: 33px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #footer-title>center h3 {
+        font-size: 17px;
+        padding-bottom: 7px;
+    }
+    .v_footer-2-content {
+        flex-basis: 90%;
+    }
+    #footer-title>center p {
+        padding-bottom: 3px;
+        font-size: 14px;
+    }
+    .v_footer-2-content h3 {
+        text-align: center;
+    }
+    #v_web-doitac {
+        padding-top: 30px;
+    }
+    .app {
+        width: 159px;
+        height: 33px;
+        margin-right: 11px;
+    }
+    .v_app-text {
+        font-size: 13px;
+        padding-top: 9px;
+    }
+    #apptimviec {
+        width: 31px;
+        height: 31px;
+    }
+    #cv365 {
+        width: 34px;
+        height: 17px;
+    }
+    #logo2 {
+        padding: 0;
+    }
+
+    #logo2{
+        padding: 0;
+    }
+
+    #v_thongtin{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 374px){
+    #v_app-all{
+        justify-content: space-between;
+    }
+
+    #v_app-all > div{
+        margin-right: 0;
+    }
+
+    .app{
+        flex-basis: 48%;
+        margin: 0;
+    }
+}

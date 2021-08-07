@@ -1,0 +1,224 @@
+#video-header{
+    margin-top: 32px;
+    margin-bottom: 67px;
+    background: rgba(149, 204, 236, 0.3);
+    padding-top: 28px;
+    padding-bottom: 14px;
+}
+#video-header h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.7);
+    float: left;
+}
+.star-rate{
+    margin-right: 150px;
+    float: right;
+}
+.star-rate img{
+    margin-right: 15px;
+}
+.video-course1{
+    float: left;
+}
+.video-course1 video{
+    width: 787px;
+    height: 441px;
+}
+.video-course2{
+    margin-top: 20px;
+    float: left;
+    margin-left: 30px;
+        width: 31%;
+}
+.tailieu1{
+        display: inline-block;
+    width: 100%;
+}
+.video-course2 h3{
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 149%;
+    color: #1B6AAB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    float: left;
+    width: 67%;
+}
+.video-course2 p{
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: -7px;
+    color: rgba(0, 0, 0, 0.38);
+    float: left;
+}
+.video-course2 p img{
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.navbar-toggle{
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-bottom: 13px;
+}
+.navbar-collapse img{
+    float: left;
+    margin-right: 10px;
+}
+.navbar-collapse li{
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.collapsing{
+    width: 100%;
+    margin-top: 10px;
+}
+#video-course{
+    display: inline-block;
+        width: 100%;
+}
+#teacher span{
+    color: #1B6AAB;
+}
+.tab-content{
+    margin-top: 33px;
+        margin-bottom: 50px;
+    display: inline-block;
+    width: 100%;
+}
+#nav-course{
+        width: 72%;
+    margin-top: 50px;
+}
+#tailieu span{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.38);
+}
+.logopdf,.namepdf{
+    float: left;
+}
+.namepdf p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.7);
+}
+.xem-download{
+    float: right;
+}
+.xem-download img{
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+.xem-download a{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.38);
+    padding: 9px 16px 10px 16px;
+    margin-right: 10px;
+}
+.namepdf{
+    margin-left: 20px;
+}
+.nav-tabs a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 149%;
+    color: #000000;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+.tab-content>.active {
+    display: block;
+}
+
+.fade.in {
+    opacity: 1;
+}
+@media only screen and (max-width: 1025px){
+    .video-course1 video {
+        width: 928px;
+        height: 526px;
+    }
+    .video-course2,.navbar-toggle,.navbar-collapse,#nav-course {
+        width: 100%;
+    }
+    .video-course2{
+        margin-left: 0;
+    }
+    .star-rate{
+        margin-right: 0;
+    }
+    .nav{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 770px){
+    .video-course1 video {
+        width: 731px;
+        height: 411px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .video-course1 video {
+        width: 360px;
+        height: 220px;
+    }
+    .nav>li>a{
+        padding: 10px 10px;
+    }
+    .star-rate {
+        margin-top: 10px;
+        float: left;
+    }
+    .container{
+        padding-left: 8px;
+    }
+    .namepdf {
+        margin-bottom: 20px;
+    }
+    .xem-download {
+        float: left;
+    }
+    #nav-course {
+        margin-top: 15px;
+    }
+}

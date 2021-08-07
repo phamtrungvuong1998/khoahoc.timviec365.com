@@ -1,0 +1,414 @@
+#breadcrumb{
+    padding: 23px 0 11px 0;
+}
+.teacher-info{
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 24px 0 30px 30px;
+    margin-top: 25px;
+}
+.teacher-img{
+    float: left;
+    text-align: center;
+}
+.teacher-img h2{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    margin-top: 24px;
+}
+.no-price {
+    width: 100%;
+    text-align: center;
+    color: red;
+    padding: 9px;
+    height: 42px;
+}
+.teacher-img img{
+        border-radius: 100px;
+    border: 3px solid #1B6AAB;
+    box-sizing: border-box;
+    width: 172px;
+    height: 172px;
+}
+.teacher-course{
+    float: left;
+    width: 79%;
+    text-align: center;
+    display: flex;
+        padding: 30px 0 0 175px;
+}
+.teacher-border-img{
+        margin-left: 8px;
+    margin-bottom: 20px;
+    height: 72px;
+    width: 72px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 14%), 0px 1px 10px rgb(0 0 0 / 12%), 0px 2px 4px rgb(0 0 0 / 20%);
+}
+.teacher-border-img img{
+    margin-top: 15px;
+}
+.teacher-course p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149%;
+    color: #000000;
+    margin-top: 5px;
+}
+.teacher-course1{
+    margin-right: 140px;
+}
+.teacher-follow{
+    float: right;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+#follows{
+    background: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F89923;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 18px;
+    padding: 8px 15px 7px 16px;
+}
+.obj-course{
+    margin-top: 32px;
+    border-top: 4px solid #F89923;
+    background-color: white;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);  
+}
+.obj-course .title{
+    display: flex;
+    margin-top: 32px;
+}
+.obj-course h4{
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.87);
+}
+.obj-course hr{
+    background: #1B6AAB;
+    border: 6px solid #1B6AAB;
+    height: 10px;
+    width: 22px;
+    margin-right: 9px;
+    margin-top: 6px;
+}
+.obj-course h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.obj-course .content{
+    margin-top: 22px;
+    padding: 0 21px 17px 32px;
+    display: inline-block;
+}
+.obj-course .content p {
+    margin-top: 6px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.54);
+}
+.obj-course .xemthem{
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 17px;
+}
+.obj-course .xemthem span {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1B6AAB;
+}
+
+.product-item{
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 337px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+        float: left;
+}
+.img-main{
+    width: 100%;
+    height: 194px;
+}
+.product-item .detail{
+    background: #1B6AAB;
+    border-radius: 4px;
+    width: 84%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+}
+.product-img{
+    position: relative;
+}
+.product-img .detai-img{
+    margin: 8px;
+}
+.product-img .detai-img img{
+    width: 50px;
+    height: 42px;
+    border-radius: 8px;
+}
+.product-img .like{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.product-info{
+    padding: 24px 0 0 9px;
+    background: white;
+}
+.detai-item1{ 
+    font-weight: normal; 
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.prd-name p{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.star-rate img{
+    margin-right: 5px;
+}
+.star-rate span{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.38);
+    margin-left: 5px;
+}
+.prd-status p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.prd-item{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+}
+.prd-item .item{
+    flex-basis: auto;
+    height: auto;
+    padding: 7px 11px;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-right: 9px;
+}
+.item img{
+    margin-right: 5px;
+}
+.item span{
+    font-weight: 400;
+    font-size: 14px;
+    Line-height: 18.2px;
+}
+.product-info hr {
+    margin-left: 0 !important;
+    width: auto !important;
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.prd-buy{
+    display: flex;
+        padding: 16px 16px 25px 16px;
+}
+.prd-buy .prices{
+    width: 67%;
+}
+.prd-buy .prices p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FF0000;
+}
+.prd-buy .prices span{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.prd-buy .buy-now{
+    background: #1B6AAB;
+    border-radius: 4px;
+    width: 35%;
+    text-align: center;
+    padding-top: 9px;
+}
+.buy-now2{
+    width: 35%;
+    background: green;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 9px;
+}
+.prd-buy .buy-now a,.buy-now2 a{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.prd-name p{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.detai-item{
+    width: 76%;
+}
+.detai-item .detai-item2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffffb0;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.topic-feature{
+    padding-right: 10px;
+}
+.topic-item{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+        margin-right: 6px;
+}
+.topic-item a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.54);
+}
+#course-relate {
+    width: 100%;
+    margin-top: 46px;
+}
+#course-relate .title{
+    margin-bottom: 35px;
+}
+#course-relate h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.87);
+}
+#course-relate hr{
+    border: 4px solid #F89923;
+    box-sizing: border-box;
+    width: 38px;
+    margin-bottom: 4px;
+}
+@media only screen and (max-width:1025px){
+    .teacher-info{
+        float: none;
+        width: 100%;
+    }
+    .teacher-img{
+        width: 100%;
+    }
+    .product-item{
+        margin-right: 45px;
+    }
+    .teacher-course{
+        width: 100%;
+    }
+    .teacher-course1 {
+        margin-right: 120px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .product-item {
+        width: 340px;
+        margin-right: 20px;
+    }
+    .teacher-course{
+        padding-left: 70px;
+    }
+}
+@media only screen and (max-width:480px){
+    .teacher-img h2{
+        font-size: 22px;
+    }
+    .teacher-info{
+        padding-left: 17px;
+    }
+    .teacher-course1 {
+        margin-right: 20px;
+    }
+    
+    .teacher-img img{
+        width: 100px;
+        height: 100px;
+    }
+    .teacher-course{
+            width: 100%;
+        padding: 30px 0 0 0;
+    }
+    .obj-course .main-video{
+        padding: 10px 0 20px 37px;
+    }
+
+    .product-item {
+        width: 340px;
+        margin-right: 0;
+    }
+    .detail-title1 h1{
+        font-size: 24px;
+    }
+    .feature-product{
+        float: none;
+        margin-left: 0;
+        width: 100%;
+    }
+    .teacher-info{
+        margin-bottom: 35px;
+    }
+
+}

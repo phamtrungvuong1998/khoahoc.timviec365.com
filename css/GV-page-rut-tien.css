@@ -1,0 +1,146 @@
+#v_content-box{
+	padding: 48px 28px 100px 28px;
+	display: flex;
+	flex-direction: column;
+	background: #E5E5E5;
+}
+
+#v_content-hr{
+	margin-left: -12px;
+}
+
+#v_content-hr hr{
+	background: #F89923;
+	height: 4px;
+	width: 34px;
+}
+
+#v_content-title{
+	font-weight: 700;
+	font-size: 24px;
+	background: none;
+	color: black;
+	padding-bottom: 32px;
+	border: none;
+	display: block;
+}
+
+#v_content{
+	background: white;
+	width: 70%;
+	align-self: center;
+}
+
+#v_title{
+	padding-top: 32px;
+	color: #1B6AAB;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 28px;
+	text-align: center;
+}
+
+#v_content-detail{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.v_content-detail-1{
+	padding-bottom: 24px;
+	flex-basis: 45%;
+}
+
+.v_content-detail-1 input, select,.v_content-detail-2 input{
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 45px;
+	width: 100%;
+	padding-left: 24px;
+}
+
+::placeholder{
+	font-weight: 400;
+	color: #00000061;
+}
+
+.v_content-detail-2{
+	padding-bottom: 24px;
+	flex-basis: 95%;
+}
+
+.v_content-detail-2 select{
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 45px;
+	width: 47.5%;
+	padding-left: 24px;
+}
+
+.v_content-detail-2 textarea{
+	width: 100%;
+	height: 172px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	padding-left: 24px;
+	border-radius: 4px;
+}
+
+#v_content-btn{
+	padding-top: 24px;
+	padding-bottom: 48px;
+}
+
+.v_content-btn-1{
+	color: #000000DE;
+	font-weight: 700;
+	height: 36px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 4px;
+	background: none;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.v_content-btn-1:hover{
+	background: #1B6AAB;
+	color: white;
+}
+
+#v_btn-del{
+	width: 67px;
+}
+
+@media (max-width: 1365px){
+	#v_content{
+		width: 95%;
+	}
+}
+
+@media (max-width: 767px){
+	#v_content{
+		background: none;
+		width: 100%;
+	}
+
+	#v_content-title{
+		margin-bottom: 23px;
+	}
+
+	#v_title{
+		display: none;
+	}
+
+	#v_content-detail{
+		flex-direction: column;
+	}
+
+	.v_content-detail-2 select{
+		width: 100%;
+	}
+
+	.v_content-btn-1{
+		background: white;
+	}
+}

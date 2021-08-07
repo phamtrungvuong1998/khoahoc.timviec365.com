@@ -1,0 +1,1114 @@
+#breadcrumb {
+    padding: 23px 0 11px 0;
+}
+#course-learn {
+    padding-top: 32px;
+    padding-bottom: 17px;
+}
+#course-learn ul {
+    display: flex;
+}
+.v_count_hv{
+    color: rgba(0, 0, 0, 0.54);
+}
+#course-learn li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    margin-right: 29px;
+    cursor: pointer;
+}
+.hr1 {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+#main-detail {
+    margin-top: 30px;
+}
+.detail-title1 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1b6aab;
+}
+.detail-title2 {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 64%;
+}
+.detail-title2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.54);
+}
+#center-detail {
+    display: inline-block;
+    width: 100%;
+}
+.teacher,
+.teacher-info {
+    float: left;
+}
+#rate-1 {
+    width: 20%;
+}
+#rate-2 {
+    width: 40%;
+}
+#rate-3 {
+    width: 60%;
+}
+#rate-4 {
+    width: 80%;
+}
+#rate-5 {
+    width: 100%;
+}
+.teacher {
+    width: 67%;
+}
+.teacher-info {
+    width: 50%;
+}
+.teacher-img {
+    float: left;
+    height: 131px;
+    margin-right: 15px;
+}
+.like-product {
+    width: 26px;
+    height: 26px;
+}
+.teacher-img img {
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+}
+.teacher-name h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 149%;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.87);
+}
+.teacher-name .teacher-name1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.teacher-name .teacher-name2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.38);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-top: 6px;
+}
+.teacher-name a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1b6aab;
+}
+.obj-course {
+    margin-top: 32px;
+    padding-bottom: 10px;
+    border-top: 4px solid #1b6aab;
+    background-color: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.14), 0 1px 10px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.obj-course .title {
+    display: flex;
+    margin-top: 32px;
+}
+.obj-course h4 {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.87);
+}
+.obj-course hr {
+    background: #1b6aab;
+    border: 6px solid #1b6aab;
+    height: 10px;
+    width: 22px;
+    margin-right: 9px;
+    margin-top: 6px;
+}
+.obj-course h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.obj-course .content {
+    margin-top: 22px;
+    padding: 0 21px 17px 32px;
+    display: inline-block;
+}
+.obj-course .content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.54);
+}
+.obj-course .xemthem {
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 17px;
+}
+.obj-course .xemthem span {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b6aab;
+    cursor: pointer;
+}
+.all-document {
+    margin-top: 32px;
+}
+.obj-course .main-video {
+    display: flex;
+    padding: 10px 0 10px 37px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.obj-course .main-video img {
+    height: 9px;
+    margin-top: 7px;
+}
+.obj-course .main-video h3 {
+    color: rgba(0, 0, 0, 0.54);
+    width: 80%;
+    margin-left: 11px;
+}
+#cart-list1-img {
+    width: 100%;
+    height: 186px;
+}
+.obj-course .main-video span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.video-collapse {
+    padding: 10px 0 14px 36px;
+    width: 100%;
+    display: none;
+}
+.video-collapse img {
+    margin-top: 4px;
+    height: 13px;
+    float: left;
+    margin-right: 10px;
+}
+.video-collapse a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.36);
+}
+.video-lesson {
+    float: left;
+    width: 83%;
+    margin-bottom: 9px;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.36);
+}
+.video-collapse a {
+    background: #1b6aab;
+    border-radius: 4px;
+    padding: 9px 16px 9px 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    float: left;
+}
+#cart {
+    width: 30%;
+    float: right;
+}
+.cart-list {
+    margin-bottom: 30px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.14), 0 1px 10px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.cart-list img {
+    object-fit: cover;
+}
+.cart-list .buy-now {
+    padding: 20px 23px 43px 23px;
+}
+.cart-list .prices {
+    display: flex;
+}
+.prices1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    color: #1b6aab;
+    width: 55%;
+}
+.prices2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.38);
+    text-decoration: line-through;
+}
+.listbuy {
+    text-align: center;
+    margin-top: 24px;
+}
+.listbuy1,
+.listbuy2,
+.listbuy3,
+.listbuy5 {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.listbuy1,
+.listbuy2,
+.listbuy5 {
+    padding: 7px 100px 7px 48px;
+}
+.listbuy3 {
+    padding: 7px 38px 7px 45px;
+}
+.listbuy4 {
+    padding: 7px 35px 7px 5px;
+}
+.listbuy a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.listbuy1,
+.listbuy2,
+.listbuy5 {
+    color: #fff;
+}
+.listbuy3,
+.listbuy4 {
+    color: rgba(0, 0, 0, 0.54);
+}
+.listbuy1 img,
+.listbuy2 img,
+.listbuy5 img {
+    margin-right: 43px;
+}
+.listbuy5 {
+    background: green;
+}
+.listbuy1 {
+    background: #f89923;
+}
+.listbuy2 {
+    background: #1b6aab;
+}
+.listbuy3 {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.listbuy3 img {
+    margin-right: 12px;
+    margin-top: -5px;
+}
+.listbuy4 img {
+    margin-right: 27px;
+    margin-top: -5px;
+}
+.cart-list .title {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.cart-list .title2 {
+    border: none;
+}
+.cart-list .title,
+.cart-list .title2 {
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 16px;
+}
+.cart-list hr {
+    border: 4px solid #f89923;
+    box-sizing: border-box;
+    width: 14px;
+    margin-left: 94px;
+    margin-bottom: 3px;
+}
+.cart-list h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.cart-list .course-info {
+    padding: 18px 0 35px 21px;
+}
+.cart-list .course-info li {
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.cart-list .course-info img {
+    margin-right: 12px;
+}
+.title2 .hr2 {
+    margin-left: 108px;
+}
+.cart-keyword {
+    padding: 12px 0 32px 15px;
+    display: inline-block;
+}
+.cart-keyword a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1b6aab;
+}
+.cart-keyword .a-keyword {
+    padding: 7px 8px 7px 8px;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    float: left;
+}
+.student-rating {
+    margin-top: 64px;
+    display: inline-block;
+}
+.student-comment {
+    width: 100%;
+    margin-top: 50px;
+    display: inline-block;
+}
+#course-relate h2,
+.student-comment h2,
+.student-rating h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.student-comment h2 {
+    width: 80%;
+    float: left;
+}
+.student-comment hr,
+.student-rating hr {
+    background: #f89923;
+    border: 4px solid #f89923;
+    box-sizing: border-box;
+    width: 38px;
+    margin-bottom: 4px;
+}
+#course-relate hr{
+    border: 4px solid #f89923;
+    box-sizing: border-box;
+    width: 38px;
+    margin-bottom: 4px;
+}
+.title hr{
+    background: #f89923;
+}
+.the-rate {
+    padding: 23px 0 0 24px;
+}
+.the-rate1 {
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.the-rate1 li {
+    margin-top: 18px;
+}
+.the-rate span {
+    width: 43.96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-right: 19px;
+}
+.the-rate img {
+    margin-right: 10px;
+}
+.the-rate1 h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.middle {
+    margin-top: 8px;
+    float: left;
+    width: 324px;
+    margin-right: 20px;
+}
+.bar-container {
+    height: 10px;
+    width: 100%;
+    background: #c4c4c4;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+.bar-rate {
+    width: 0%;
+    height: 10px;
+    background: #1b6aab;
+    border-radius: 8px;
+}
+.the-rate2 {
+    float: left;
+    padding-left: 8px;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    height: 155px;
+}
+.rate-side {
+    margin-bottom: 10px;
+}
+#rate-3 {
+    width: 30%;
+}
+.student-comment .title button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 149%;
+    color: #fff;
+    background: #1b6aab;
+    border-radius: 4px;
+    padding: 11px 16px 6px 16px;
+}
+.std-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.std-content,
+.std-img {
+    float: left;
+}
+.std-content img {
+    margin-right: 5px;
+}
+.std-content p,
+.std-content span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.prices {
+    height: 38.89px;
+}
+.cmt-student {
+    display: flex;
+}
+.std-content p {
+    margin-top: 10px;
+}
+.std-content {
+    margin-left: 25px;
+}
+.list-comment {
+    position: relative;
+    padding: 25px 5px 5px 30px;
+}
+.answer-rep,
+.std-content .answer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.std-content .stdstar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.std-content button {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #f89923;
+    background: #f7f7f7;
+}
+.pagination {
+    margin-left: 110px;
+}
+#course-relate {
+    float: left;
+    width: 100%;
+    margin-top: 76px;
+}
+.product-item {
+    background: white;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 360px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex-basis: 30%;
+}
+.img-main {
+    width: 100%;
+    height: 194px;
+}
+.product-item .detail {
+    background: #1b6aab;
+    border-radius: 4px;
+    width: 84%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+}
+.product-img {
+    position: relative;
+}
+.product-img .detai-img {
+    margin: 8px;
+}
+.product-img .detai-img img {
+    width: 50px;
+    height: 42px;
+    border-radius: 8px;
+}
+.product-img .like {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.product-info {
+    padding: 24px 10px 0 16px;
+    background: #fff;
+}
+.reply-content {
+    margin-top: 15px;
+}
+.reply-content .std-content {
+    width: 88%;
+}
+.detai-item1 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #fff;
+    margin-top: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.prd-name p {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.star-rate img {
+    margin-right: 5px;
+}
+.star-rate span {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.38);
+    margin-left: 5px;
+}
+.prd-status p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.prd-item {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+}
+.prd-item .item {
+    flex-basis: auto;
+    height: auto;
+    padding: 7px 11px;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-right: 9px;
+}
+.item img {
+    margin-right: 5px;
+}
+.item span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+.product-info hr {
+    margin-left: 0 !important;
+    width: auto !important;
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.prd-buy {
+    display: flex;
+    padding: 16px 16px 25px 16px;
+}
+.prd-buy .prices {
+    width: 67%;
+}
+.prd-buy .prices p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: red;
+}
+.prd-buy .prices span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.prd-buy .buy-now {
+    background: #1b6aab;
+    border-radius: 4px;
+    width: 35%;
+    text-align: center;
+    padding-top: 9px;
+}
+.prd-buy .buy-now a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+.prd-name p {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.detai-item {
+    width: 76%;
+}
+.detai-item .detai-item2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffffb0;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.topic-feature {
+    padding-right: 10px;
+}
+.topic-item {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 6px;
+}
+.topic-item a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.54);
+}
+#course-relate .title {
+    margin-bottom: 35px;
+}
+.highlight-span {
+    padding: 4px 21px 4px 21px;
+    background: #f2f2f2;
+    border-radius: 16px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.highlight-span span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    color: #1b6aab;
+}
+.house-address {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.house-address p {
+    margin-bottom: 10px;
+}
+.house-address .house-address2 {
+    color: #1b6aab !important;
+    margin-bottom: 15px;
+}
+.addresscont {
+    width: 75%;
+    padding: 0 21px 0 32px !important;
+    margin-bottom: 15px;
+    margin-top: 5px !important;
+}
+#comment-rate .modal-dialog {
+    width: 1217px;
+    text-align: center;
+}
+#comment-rate .modal-body {
+    text-align: left;
+    margin-top: 33px;
+}
+#comment-rate h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1b6aab;
+}
+#comment-rate .modal-content {
+    padding: 76px 350px 85px 350px;
+}
+#btn-cmt {
+    background: #1b6aab;
+    border-radius: 4px;
+    padding: 10px 13px 8px 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#btn_cmt_img{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+#btn_cmt_span{
+    color: white;
+}
+#comment-rate p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.ratespan {
+    float: left;
+    width: 25%;
+}
+#comment-rate .rating {
+    margin-bottom: 24px;
+    margin-left: 50px;
+}
+.star {
+    cursor: pointer;
+    color: #eee;
+    margin-right: 15px;
+}
+.reply-comment {
+    margin-top: 20px;
+    float: right;
+    background: #fff;
+    width: 343px;
+    height: 198px;
+    box-shadow: 0 24px 38px rgba(0, 0, 0, 0.14), 0 9px 46px rgba(0, 0, 0, 0.12), 0 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 24px 14px 14px 14px;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cmt-student {
+    display: inline-block;
+    width: 100%;
+    padding-top: 25px;
+}
+.divreply {
+    text-align: right;
+}
+textarea {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.38);
+    padding-top: 16px;
+    padding-left: 30px;
+}
+.reply-comment textarea {
+    width: 315px;
+    height: 106px;
+}
+#comment-rate textarea {
+    width: 488px;
+    height: 107px;
+}
+.reply-comment button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: #fff;
+    background: #2169a8;
+    border-radius: 4px;
+    padding: 6px 16px 4px 16px;
+}
+.buy-now,
+.buy-now2 a {
+    color: #fff;
+}
+.buy-now2 {
+    width: 35%;
+    background: green;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 9px;
+}
+.no-cmt {
+    background: #5f9ea0;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.stdstar span {
+    margin-left: 0;
+}
+.studentrep {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.feature-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1025px) {
+    .cart-list {
+        width: 49%;
+    }
+    #cart {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .reply-comment {
+        float: left;
+    }
+    .std-content {
+        width: 100%;
+    }
+    #comment-rate .modal-dialog {
+        width: 550px;
+    }
+    #comment-rate .modal-content {
+        padding: 20px 0 35px 0;
+    }
+    .addresscont {
+        width: 100%;
+    }
+    #course-learn li {
+        font-size: 16px;
+    }
+    .detail-title2 {
+        width: 100%;
+    }
+    .teacher-info {
+        float: none;
+        width: 100%;
+    }
+    #cart-list1,
+    #cart-list3 {
+        float: left;
+    }
+    #cart-list3{
+        float: right;
+    }
+    #cart-list2 {
+        float: right;
+    }
+    .detail-title1 h1 {
+        line-height: 149%;
+    }
+    .teacher {
+        width: 100%;
+    }
+    .product-item {
+        width: 315px;
+        margin-right: 45px;
+        flex-basis: 45%;
+    }
+    .student-rating {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    #cart-list2 {
+        margin-left: 30px;
+    }
+    .cart-list {
+        width: 47%;
+    }
+    #course-learn li {
+        font-size: 12px;
+    }
+    .product-item {
+        width: 340px;
+        margin-right: 20px;
+    }
+    .listbuy1,
+    .listbuy2 {
+        padding: 10px 60px 10px 41px;
+    }
+    .cart-list hr {
+        margin-left: 85px;
+    }
+    .title2 .hr2 {
+        margin-left: 98px;
+    }
+    .prices1 {
+        width: 53%;
+    }
+    .cart-keyword a {
+        font-size: 13px;
+    }
+    .the-rate {
+        padding: 23px 0 0 0;
+    }
+    .middle {
+        width: 305px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .cart-list {
+        width: 100%;
+    }
+    #cart-list2,
+    #cart-list3 {
+        float: left;
+        margin-left: 0;
+    }
+    .reply-content .std-img {
+        margin-right: 15px;
+    }
+    .reply-content .std-content {
+        width: 100%;
+        float: none;
+    }
+    #comment-rate .modal-dialog {
+        width: 375px;
+        margin: 0 auto;
+    }
+    #comment-rate textarea {
+        width: 370px;
+    }
+    #comment-rate .modal-body {
+        padding: 0;
+    }
+    .std-content {
+        width: 75%;
+    }
+    .list-comment {
+        padding: 25px 5px 5px 5px;
+    }
+    .highlight-span {
+        padding: 4px 15px 4px 15px;
+    }
+    .highlight-span span {
+        font-size: 14px;
+    }
+    .obj-course .main-video {
+        padding: 10px 0 20px 37px;
+    }
+    .student-comment h2 {
+        margin-bottom: 15px;
+    }
+    .the-rate1 li {
+        float: left;
+        margin-right: 30px;
+    }
+    #course-learn,
+    .detail-title2 p,
+    .obj-course .main-video span,
+    .rate-side img {
+        display: none;
+    }
+    .product-item {
+        flex-basis: 100%;
+        width: 340px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .detail-title1 h1 {
+        font-size: 24px;
+    }
+    .feature-product {
+        float: none;
+        margin-left: 0;
+        width: 100%;
+    }
+    .teacher-info {
+        margin-bottom: 35px;
+    }
+    .the-rate1 {
+        width: 100%;
+    }
+    .the-rate2 {
+        margin-top: 30px;
+        border: none;
+    }
+    .middle {
+        width: 260px;
+    }
+    .rate-side {
+        margin-bottom: 17px;
+    }
+}

@@ -1,0 +1,283 @@
+#main{
+    background: #E5E5E5;
+}
+
+#content-box{
+    padding-top: 90px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+#content{
+    padding-top: 48px;
+    padding-bottom: 42px;
+    background: white;
+    width: 90%;
+}
+
+#content-div{
+    justify-content: space-around;
+}
+
+.content-div-div{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+#v_thong-tin-tk{
+    flex-basis: 45%;
+}
+
+#v_chi-tiet{
+    flex-basis: 22.5%;
+    cursor: pointer;
+}
+
+#v_doi-mk{
+    flex-basis: 22.5%;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0;
+}
+
+form{
+    padding-top: 48px;
+}
+
+#v_form{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.v_form-div{
+    flex-basis: 45%;
+}
+
+#v_form-div-div{
+    padding-top: 16px;
+}
+
+.v_form-p{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+.v_input-1, .v_input-3, select{
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.v_input-1:hover{
+    border: 1px solid rgba(27, 106, 171, 1);
+}
+
+select:hover{
+    border: 1px solid rgba(27, 106, 171, 1);
+}
+
+.v_input-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#v_gender-nam{
+    padding-right: 25px;
+}
+
+span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.v_gender{
+    padding-left: 7px;
+}
+
+#v_address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.v_address-div{
+    flex-basis: 45%;
+}
+
+select{
+    background: white;
+}
+
+#v_submit{
+    padding-top: 33px;
+}
+
+#v_submit-input{
+    width: 103px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    background: rgba(248, 153, 35, 1);
+    border-radius: 4px;
+    border-color: rgba(248, 153, 35, 1);
+}
+
+#v_form-1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+
+.v_form-div-div-1{
+    flex-basis: 50%;
+    padding-bottom: 21px;
+    position: relative;
+}
+
+.v_form-div-div-1 input{
+    width: 90%;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.v_form-div-div-2{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.v_form-div-div-2 input{
+    width: 90%;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.v_doi-pass{
+    position: absolute;
+    top: 36px;
+    left: 83%;
+    cursor: pointer;
+}
+
+.v_doi-pass-1{
+    position: absolute;
+    top: 36px;
+    left: 83%;
+    cursor: pointer;
+}
+
+#v_xem-pass-btn{
+    background: #1B6AAB;
+    color: white;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 33px;
+}
+
+#v_doi-password{
+    display: none;
+}
+
+@media (max-width: 1365px){
+    #v_submit-input{
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+        background: #1B6AAB;
+        width: 106px;
+        border-color: #1B6AAB;
+    }
+
+    .v_input-1, select
+    {
+        height: 36px;
+    }
+
+    #v_sdt{
+        flex-basis: 50%;
+    }
+
+    .v_doi-pass{
+        left: 80%;
+    }
+
+    .v_doi-pass-1{
+        left: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .content-div-div{
+        font-size: 14px;
+    }
+
+    #v_thong-tin-tk{
+        flex-basis: 40%;
+    }
+    
+    #v_chi-tiet{
+        flex-basis: 20%;
+    }
+    
+    #v_doi-mk{
+        flex-basis: 30%;
+    }
+
+    .v_form-div{
+        flex-basis: 90%;
+    }
+
+    .v_input-2{
+        flex-wrap: wrap;
+    }
+
+    #v_gender-all{
+        flex-basis: 100%;
+        padding-bottom: 16px;
+    }
+
+    #v_sdt{
+        flex-basis: 100%;
+    }
+
+    .v_form-div-div-1{
+        flex-basis: 100%;
+    }
+
+    .v_form-div-div-2{
+        flex-basis: 100%;
+        padding-bottom: 21px;
+    }
+
+    .v_form-div-div-1 input{
+        width: 100%;
+    }
+
+    .v_form-div-div-2 input{
+        width: 100%;
+    }
+
+    #v_form-div-div-1{
+        display: none;
+    }
+
+    .v_doi-pass {
+        left: 90%;
+    }
+
+    .v_doi-pass-1 {
+        left: 90%;
+    }
+}
+
+

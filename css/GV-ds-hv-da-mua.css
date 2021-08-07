@@ -1,0 +1,27 @@
+
+.v_name-hv{
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.v_contact-hv{
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(27, 106, 171, 1);
+}
+
+.v_monhoc{
+	font-weight: 700;
+	color: rgba(27, 106, 171, 0.7);
+	font-size: 14px;
+}
+
+.v_reply{
+	border: none;
+	background: none;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(27, 106, 171, 1);
+	padding-left: 12px;
+}

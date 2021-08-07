@@ -1,0 +1,358 @@
+
+#v_header-main{
+    background: white;
+    height: 68px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#v_header-avatar-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#v_header-mb{
+    display: none;
+}
+
+#v_header-tb{
+    display: none;
+}
+
+#v_header-1{
+    position: absolute;
+    right: 31px;
+    display: flex;
+}
+
+.menu-list{
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 32px;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+
+.menu-list > a {
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+
+.menu-list > a:hover{
+    color: #3F7EBC;
+}
+
+#menu-list-last{
+    padding-right: 23px;
+}
+
+#v_header-avatar{
+    position: relative;
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+}
+
+#v_header-avatar button{
+    background: none;
+    border: none;
+}
+
+#v_header-dropdown{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background: white;
+    width: 218px;
+    right: -22px;
+    top: 68px;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-bottom: 39px;
+}
+
+.v_header-avatar-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#v_header-avatar-dropdown-name{
+    color: #1B6AAB;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+
+#v_header-avatar-dropdown-tk{
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+#v_header-avatar-dropdown-tk span{
+    color: #F89923;
+}
+
+.v_header-dropdown-menu{
+    padding-left: 10px;
+}
+
+.v_header-dropdown-menu img{
+    width: 21px;
+    height: 20px;
+}
+
+.v_header-dropdown-hr{
+    width: 100%;
+    margin: 0;
+    margin-top: 9px;
+    margin-bottom: 22px;
+}
+
+.v_header-dropdown-menu button{
+    font-weight: 400;
+    padding-left: 11px;
+}
+
+#v_ion-caret{
+    background: none;
+    border: none;
+}
+
+#v_ion-caret img{
+    width: 24px;
+    height: 24px;
+}
+
+
+@media (max-width: 1365px){
+    #header{
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+        background: #FFFFFF;
+        background-size: auto 52px;
+        padding: 0;
+    }
+
+    #v_header-mb{
+        display: block;
+    }
+
+    #v_logo1{
+        padding-top: 10px
+    }
+
+    #v_header-1{
+        display: none;
+    }
+    #v_sidebar{
+        display: none;
+    }
+
+    #quanlikhoahoc-tb{
+        display: none;
+        padding-top: 17px;
+    }
+    
+    #quanlikhoahoc-tb > li{
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    
+    #quanlikhoahoc-tb > li:hover{
+        color: #1B6AAB;
+    }
+
+    #v_vi-kh-tb{
+        display: none;
+        padding-top: 17px;
+    }
+    
+    #v_vi-kh-tb > li{
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    
+    #v_vi-kh-tb > li:hover{
+        color: #1B6AAB;
+    }
+
+    #v_thong-tin-tk-tb{
+        display: none;
+        padding-top: 17px;
+    }
+    
+    #v_thong-tin-tk-tb > li{
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    
+    #v_thong-tin-tk-tb > li:hover{
+        color: #1B6AAB;
+    }
+
+    #v_logo-chung{
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    #v_logo-chung img{
+        width: 138px;
+        height: 49px;
+    }
+
+    #v_quanlihocvien-hr{
+        padding-bottom: 41px;
+    }
+
+    #v_quanlihocvien-hr hr{
+        size: 1px;
+        border: 1px solid #000000 12%
+    }
+
+    #v_quanlihocvien-menu{
+        text-align: center;
+        padding-bottom: 4px;
+    }
+
+    #v_quanlihocvien-menu > div{
+        padding-bottom: 32px;
+        font-weight: 400;
+    }
+
+    #v_quanlihocvien-avatar{
+        padding-top: 36px;
+        padding-bottom: 27px;
+    }
+
+    #v_quanlihocvien-avatar-img{
+        width: 111px;
+        height: 111px;
+        border-radius: 50%;
+    }
+
+    #v_tenhocvien{
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 33px;
+    }
+
+    #v_quanlihocvien-detail{
+        padding-bottom: 373px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #v_header-tb{
+        display: block;
+    }
+
+    #v_menu{
+        position: absolute;
+        top: 2px;
+        left: 24px;
+        bottom: 2px;
+    }
+
+    #v_sidebar{
+        display: none;
+    }
+
+    #v_menu img{
+        width: 48px;
+        height: 48px;
+    }
+
+    #quanlihocvien{
+        z-index: 2;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #quanlihocvien_div{
+        width: 45%;
+        background: white;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #v_gv-create-course {
+        padding-top: 28px;
+    }
+
+    #v_btn-create-course{
+        background: rgba(248, 153, 35, 1);
+        color: white;
+        border-color: rgba(248, 153, 35, 1);
+        border-radius: 4px;
+        width: 166px;
+        height: 36px;
+        border: none;
+    }
+
+    .v_sidebar-icon{
+        padding-left: 18.27px;
+        padding-right: 10px;
+    }
+
+    .v_sidebar-list{
+        font-weight: 600;
+        font-size: 16px;
+        width: 143px;
+    }
+
+    .v_ion-caret{
+        padding-left: 14px;
+        flex: 1;
+        width: 38px;
+    }
+
+    .v_sidebar-list button{
+        background: white;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .v_sidebar-list button{
+        border: none;
+    }
+
+    #v_sidebar-tb-1, #v_sidebar-tb-2, #v_sidebar-tb-3, #v_sidebar-tb-4, #v_sidebar-tb-5{
+        padding-left: 100px;
+        padding-top: 13px;
+        display: none;
+    }
+
+    #v_sidebar-tb-2{
+        padding-left: 56px;
+    }
+
+    #v_sidebar-tb-3{
+        padding-left: 0;
+    }
+
+    #v_sidebar-tb-4{
+        padding-left: 13px;
+    }
+
+    #v_sidebar-tb-5{
+        padding-left: 0;
+    }
+
+    #v_sidebar-tb-1 li, #v_sidebar-tb-2 li, #v_sidebar-tb-3 li, #v_sidebar-tb-4 li, #v_sidebar-tb-5 li{
+        padding-bottom: 16px;
+    }
+
+}
+@media (max-width: 767px){
+    #quanlihocvien_div{
+        width: 80%;
+    }
+}

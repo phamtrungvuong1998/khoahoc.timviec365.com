@@ -1,0 +1,334 @@
+#order-header{
+    margin-top: 24px;
+    background: rgba(149, 204, 236, 0.3);
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+#order-header p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+}
+#order-main{
+    padding-top: 24px;
+}
+.order-main1{
+    width: 60%;
+    float: left;
+    margin-right: 120px;
+}
+
+.order-info1 hr{
+    border: 4px solid #F89923;
+    box-sizing: border-box;
+    width: 30px;
+    margin-bottom: 3px;
+}
+.order-info1 h3{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+.order-info2{
+    margin-top: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.order-all{
+    padding-left: 100px;
+    padding-top: 23px;
+        padding-right: 100px;
+}
+.order-img,.order-product{
+    float: left;
+}
+.order-img img{
+    Width :100px;
+    Height: 100px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.order-product{
+    width: 70%;
+    margin-left: 24px;
+}
+.order-product h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+.order-info{
+    margin-bottom: 32px;
+}
+.order-product p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.order-img-prd{
+    display: inline-block;
+    margin-bottom: 26px;
+    width: 100%;
+}
+.unsetcart{
+    float: right;
+}
+.magiamgia{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: green;
+    cursor: pointer;
+    display: none;
+}
+.magiamgia img{
+    margin-right: 10px;
+}
+.order-price .span1{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.order-price .span2{
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.order-price{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+}
+.order-total{
+    margin-top: 27px;
+}
+.user-img{
+    float: left;
+    margin-right: 12px;
+}
+.order-user,.order-user2{
+    padding-top: 25px;
+    padding-bottom: 27px;
+    padding-left: 228px;
+}
+.userp1{
+    margin-bottom: 9px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.userp2,.userspan1{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.nhapma input{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.38);
+    padding: 15px 0 14px 11px;
+}
+.nhapma button{
+    background: #2169A8;
+    border-radius: 0px 4px 4px 0px;
+    color: white;
+    padding: 16px 19px 13px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+        margin-left: -4px;
+}
+.user-tk2{
+    float: left;
+    text-align: center;
+}
+.user-tk2 p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+.userspan2{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.order-user2{
+    display: inline-block;
+}
+.order-user2 input{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+}
+.order-buy {
+    margin-bottom: 32px;
+}
+.order-buy label{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+.order-buy span{
+    color: #1B6AAB;
+}
+.a-buy{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    background: #F89923;
+    border-radius: 4px;
+    padding: 9px 16px 9px 16px;
+}
+.a-buy2{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    background: red;
+    border-radius: 4px;
+    padding: 9px 16px 9px 16px;
+}
+.order-buy input{
+    width:15px; 
+    height:15px
+}
+.order-check{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.order-main2 {
+    width: 29%;
+    float: left;
+}
+.student-content{
+    margin-top: 32px;
+}
+.quest-danger{
+    margin-left: 8px;
+}
+.quest-student2{
+    margin-top: 16px;
+}
+.quest-student{
+    margin-bottom: 32px;
+}
+.nguoidatcoc{
+    float: right;
+}
+.quest-student2 img{
+    margin-right: 10px;
+}
+.order-infohr{
+    padding-top: 32px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+}
+.complete-return a{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 16px 7px 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+.return-home{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+}
+.go-course{
+    background: #1B6AAB;
+    color: white;
+}
+.the-complete{
+    display: inline-block;
+    width: 100%;
+    padding-top: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.the-complete span{
+    color: #1B6AAB;
+}
+.the-complete p{
+    margin-bottom: 16px;
+}
+.complete-img{
+    margin-bottom: 50px;
+}
+.complete-return{
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+.nguoidatcoc img{
+    margin-right: 8px;
+}
+@media only screen and (max-width:1025px){
+
+    .order-img img {
+        Width: 80px;
+        Height: 80px;
+    }
+    .order-user,.order-user2{
+        padding-left: 30px;
+            padding-right: 65px;
+    }
+    .order-main1 {
+        width: 53%;
+        margin-right: 45px;
+    }
+    .order-main2 {
+        width: 40%;
+    }
+    .order-all{
+        padding-right: 10px;
+        padding-left: 12px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .order-product {
+        width: 58%;
+    }
+    
+    .order-main1,.order-main2,.order-check {
+        width: 100%;
+    }
+    .complete-return a{
+        font-size: 14px;
+        margin-right: 0;
+    }
+}

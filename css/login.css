@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Begin: content */
+#content-box{
+    padding-top: 64px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+#banner{
+    background-image: url("../img/bannerlogin.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 60px 0;
+    padding: 78px 0;
+}
+.container{
+    display: flex;
+}
+.object{
+    border-top: 6px solid #F89923;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 4px;
+    padding: 26px;
+}
+.object2{
+    margin: 30px 0;
+}
+.object2 img{
+    margin-right: 10px;
+}
+.object2 ul{
+    padding-left: 40px;
+}
+.object2 li{
+    margin-top: 10px;
+}
+.object3{
+    text-align: center;
+}
+.object3 a{
+    color: white;
+    background: #1B6AAB;
+    border-radius: 4px;
+    padding: 9px 89px;
+}
+#content{
+    background: #FFFFFF;
+    width: 614px;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 14%), 0px 1px 18px rgb(0 0 0 / 12%), 0px 3px 5px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+}
+
+#content-title{
+    font-size: 36px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.signup-input{
+    padding-top: 0px;
+    padding-bottom: 24px;
+}
+
+.signup-input-input{
+    height: 56px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#xacnhan{
+    padding: 3px 43px 24px calc(46vw*var(--w-s));
+}
+
+#xacnhan > div{
+    padding-right: 4px;
+}
+
+#btn-ttk{
+    padding-top: 0;
+    padding-bottom: 32px;
+}
+input{
+    padding-left: 15px;
+}
+#taotaikhoan{
+    font-weight: 700;
+    background: #1B6AAB;
+    color: white;
+    border: none;
+    border-radius: 36px;
+    width: 420px;
+    height: 56px;
+    font-size: 14px;
+}
+
+#singup_img{
+    margin: 0 auto;
+    display: none;
+}
+
+#login_btn{
+    color: white;
+    font-size: 14px;
+}
+
+.v_form-div-a{
+    text-decoration: none;
+    color: #1B6AAB;
+}
+
+#dacotk{
+    padding-top: 0;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+#dangki{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 28px;
+}
+#forgotpass2{
+        text-transform: uppercase;
+    height: 36px;
+    background: #1B6AAB;
+    border-color: #1B6AAB;
+    border-radius: 4px;
+    color: white;
+        width: 100%;
+}
+.forgotpass{
+    padding: 50px;
+}
+.inpforgot{
+    width: 100% !important;
+}
+#pforgotpass{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: #666666;
+}
+
+/* End: content */
+
+.container{
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media (max-width: 1365px){
+
+    #content-box{
+        padding-top: 48px;
+        padding-bottom: 100px;
+        padding-left: calc(77vw*var(--w-s));
+        padding-right: calc(77vw*var(--w-s));
+    }
+    .object:nth-child(1),
+    .object:nth-child(2){
+        margin-right: 24px;
+    }
+    .container{
+        justify-content: center;
+    }
+
+}
+@media (max-width: 1025px){
+    .container{
+        display: block;
+    }
+    .object {
+        flex-basis: 45%;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 770px){
+    .object {
+        width: 100%;
+        margin-right: 20px;
+    }
+    #btn-ttk{
+        padding-bottom: 0;
+    }
+    #dacotk{
+        padding: 10px 0;
+    }
+    .forgotpass {
+        padding: 20px;
+    }
+    #content-box{
+        padding-top: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #content{
+        width: 343px;
+    }
+
+    #content-title{
+        font-size: 30px;
+        padding: 16px 53px 30px 53px;
+    }
+
+    .signup-input{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .signup-input-input{
+        height: 56px;
+        width: 90%;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+
+    #dacotk{
+        padding: 0;
+    }
+
+    #dangki{
+        padding: 0 52px 37px 59px;
+    }
+
+    #taotaikhoan{
+        width: 319px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px){
+    .object {
+        flex-basis: 100%;
+    }
+    .object:nth-child(1),
+    .object{
+        margin-right: 0;
+    }
+    .object:nth-child(1), .object:nth-child(2){
+        margin-right: 0;
+    }
+}

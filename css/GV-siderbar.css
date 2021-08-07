@@ -1,0 +1,271 @@
+#v_wrapper{
+	display: flex;
+}
+
+#v_sidebar{
+    flex-shrink: 0;
+    background-color: white;
+    width: 311px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#main{
+    flex: 3;
+}
+
+#v_sidebar-content{
+    padding-top: 9px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 24px;
+    height: 100%;
+}
+#quanlihocvien{
+    /* background: white; */
+}
+#v_logo{
+    width: 138px;
+    height: 48.93px;
+}
+
+#v_avatar{
+    width: 111px;
+    height: 111px;
+}
+
+hr{
+    margin: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#v_name{
+    font-weight: 600;
+    padding-bottom: 0px;
+    padding-top: 16px;
+}
+
+#v_siderbar-btn{
+    display: none;
+}
+
+.v_sidebar-icon{
+    padding-left: 18.27px;
+    padding-right: 10px;
+}
+
+.v_sidebar-list{
+    font-weight: 600;
+    font-size: 16px;
+    width: 160px;
+}
+
+.v_GV-sidebar{
+    display: none;
+}
+
+.v_sidebar-list button{
+	border: none;
+    background: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+
+.v_sidebar-list a:hover{
+    color: #185DA0;
+}
+
+.v_sidebar-li :hover{
+    color: #185DA0;
+}
+
+.v_sidebar-list button:hover{
+    color: #185DA0;
+}
+
+.v_sidebar-menu{
+    padding-top: 20px;
+    display: flex;
+}
+
+.v_ion-caret{
+    padding-left: 14px;
+    flex: 1;
+    width: 38px;
+}
+
+#v_quanlihocvien-detail{
+    flex-direction: column;
+    align-items: center;
+}
+
+#v_sidebar-1, #v_sidebar-2, #v_sidebar-3{
+    display: none;
+    padding-top: 17px;
+}
+
+#v_sidebar-1 > li, #v_sidebar-2 > li, #v_sidebar-3 > li{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#v_sidebar-tb-1, #v_sidebar-tb-2, #v_sidebar-tb-3,#v_sidebar-tb-4,#v_sidebar-tb-5{
+    padding-left: 50px;
+    padding-top: 13px;
+    display: none;
+}
+#v_sidebar-tb-1 li, #v_sidebar-tb-2 li, #v_sidebar-tb-3 li, #v_sidebar-tb-4 li, #v_sidebar-tb-5 li{
+    padding-bottom: 16px;
+}
+
+
+li>a:hover{
+    color: #1B6AAB;
+}
+
+
+#v_sidebar-list-1, #v_sidebar-list-2, #v_sidebar-list-3, #v_sidebar-list-4, #v_sidebar-list-5{
+    color: #1B6AAB;
+}
+
+#v_list-1,
+#v_list-2,
+#v_list-3,
+#v_list-4,
+#v_list-5,
+#v_list-6,
+#v_list-7,
+#v_list-8,
+#v_list-9,
+#v_list-10,
+#v_list-11,
+#v_list-12 {
+    color: #1B6AAB;
+}
+#v_sidebar_tb-6{
+    display: none;
+}
+/*Begin: Giảng viên*/
+
+#v_gv-create-course{
+    padding-top: 28px;
+}
+
+#v_btn-create-course{
+    background: rgba(248, 153, 35, 1);
+    color: white;
+    border-color: rgba(248, 153, 35, 1);
+    border-radius: 4px;
+    width: 250px;
+    height: 36px;
+}
+
+/*End: Giangr viên*/
+
+
+#v_siderbar-btn{
+	display: block;
+	padding-top: 28px;
+	padding-bottom: 10px;
+}
+
+#v_GV-quan-li{
+	display: none;
+}
+
+#v_siderbar-btn a{
+	background: #F89923;
+	border-radius: 4px;
+    padding: 10px 16px;
+}
+
+#v_siderbar-btn-span{
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+}
+
+.v_GV-sider-menu{
+	display: flex;
+}
+
+.v_GV-sidebar{
+    display: block;
+}
+
+.v_HV-siderbar{
+	display: none;
+}
+
+#v_sidebar_tb-1{
+	padding-left: 22px;
+}
+
+#v_sidebar_tb-2{
+	padding-left: 24px;
+}
+
+#v_sidebar_tb-3{
+	padding-left: 23px;
+}
+
+#v_sidebar_tb-4{
+	padding-left: 51px;
+}
+
+#v_sidebar_tb-5{
+	padding-left: 51px;
+}
+
+#v_sidebar_tb-1, #v_sidebar_tb-2, #v_sidebar_tb-3, #v_sidebar_tb-4, #v_sidebar_tb-5{
+	padding-left: 85px;
+	padding-top: 13px;
+	display: none;
+}
+
+#v_sidebar_tb-2{
+	padding-left: 50px;
+}
+
+#v_sidebar_tb-3{
+	padding-left: 0;
+}
+
+#v_sidebar_tb-4{
+	padding-left: 0;
+}
+
+#v_sidebar_tb-5{
+	padding-left: 0;
+}
+
+li{
+	padding-bottom: 13px;
+}
+
+li > a:hover{
+	color: #1B6AAB;
+}
+
+#v_sidebar-list-1, #v_sidebar-list-2, #v_sidebar-list-3, #v_sidebar-list-4, #v_sidebar-list-5,#v_sidebar-list-6{
+	color: #1B6AAB;
+}
+
+#v_list-1,
+#v_list-2,
+#v_list-3,
+#v_list-4,
+#v_list-5,
+#v_list-6,
+#v_list-7,
+#v_list-8,
+#v_list-9,
+#v_list-10,
+#v_list-11,
+#v_list-12 {
+	color: #1B6AAB;
+}
+@media (max-width: 767px){
+#quanlihocvien {
+    width: 100% !important;
+}
+}

@@ -1,0 +1,48 @@
+#v_chuyentrang {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background: #F4F2FF;
+    background-size: auto 45px;
+    align-self: center;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0 0 8px 8px;
+}
+
+.v_chuyen-trang-div {
+    cursor: pointer;
+    margin-right: 4px;
+    font-weight: 400;
+    padding-top: 3px;
+    font-size: 16px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.v_chuyen-trang-div:hover{
+    color: white;
+    background: #1B6AAB;
+}
+
+@media (max-width: 767px){
+	#v_chuyentrang {
+    	border: none;
+	}
+
+    .v_chuyen-trang-div:hover{
+        color: black;
+        background: #E5E5E5;
+    }
+
+    #v_chuyentrang{
+        background: white;
+    }
+}
+
+
+

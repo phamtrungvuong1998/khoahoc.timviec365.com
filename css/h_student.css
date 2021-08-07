@@ -1,0 +1,347 @@
+#breadcrumb{
+    padding: 23px 0 11px 0;
+}
+#category-student{
+    margin-top: 45px;
+    margin-bottom: 34px;
+}
+.all-student,#category-student,.all-keyword,#detail-student{
+    display: inline-block;
+    width: 100%;
+}
+.v_cate_name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 20px;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+
+    #l_mail,
+    #l_phone {
+        cursor: pointer;
+    }
+
+    .all-keyword {
+        width: auto;
+    }
+
+    .all-keyword a:hover {
+        background: orange;
+    }
+
+    .all-student {
+        position: relative;
+        flex-basis: 21%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    #xemthem {
+        position: absolute;
+        right: 0;
+        bottom: -60px;
+        border: none;
+        background: none;
+    }
+
+    #xemthem a {
+        color: #1B6AAB;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        border: 1px solid #1B6AAB;
+        box-sizing: border-box;
+        border-radius: 18px;
+        float: right;
+        padding: 10px 14px 8px 16px;
+    }
+
+
+    /* The Modal (background) */
+    .l_modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-animation-name: fadeIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: fadeIn;
+        animation-duration: 0.4s
+    }
+
+    .l_modal-content {
+        position: fixed;
+        top: 5%;
+        left: 25%;
+        background-color: #fefefe;
+        width: 50%;
+        -webkit-animation-name: slideIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slideIn;
+        animation-duration: 0.4s
+    }
+
+    .l_close {
+        color: red !important;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        opacity: inherit;
+    }
+
+    .l_close:hover,
+    .l_close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .l_modal-header {
+        padding: 12px 16px;
+
+    }
+
+    .l_modal-body {
+        padding: 12px 16px;
+    }
+
+    .l_modal-footer {
+        padding: 12px 16px;
+
+    }
+.student-item{
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: 28px;
+    padding: 16px;
+    width: 100%;
+    border-top: 4px solid #1B6AAB;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.item1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.item{
+    text-align: right;
+}
+.item1{
+    text-align: center;
+}
+.item1 h3{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 12px;
+}
+.item2 li{
+    margin-top: 19px;
+}
+.item2 img{
+    margin-right: 6px;
+}
+.item2 div{
+    float: left;
+}
+.paginate-product{
+    text-align: center;
+}
+hr{
+    background: #F89923;
+    width: 37px;
+    border: 4px solid #F89923;
+    margin-bottom: 5px;
+}
+h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.87);
+}
+.all-keyword{
+    margin-top: 20px;
+}
+.all-keyword a{
+    margin-bottom: 8px;
+    margin-right: 8px;
+    float: left;
+    padding: 10px 5px 8px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#detail-student{
+    display: flex;
+    margin-top: 45px;
+    padding: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.detail1,.detail2{
+    float: left;
+}
+.detail2{
+    padding-left: 24px;
+}
+.detail2 img{
+    margin-right: 15px;
+}
+.detail2 h3{
+    font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.7);
+}
+.detail2 li{
+    margin-top: 17px;
+}
+.detail-student1{
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+}
+.detail-student2{
+    display: flex;
+    padding-left: 50px;
+    text-align: center;   
+}
+.detail-student2 p{
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.detail-student2 span{
+    font-size: 16px;
+    line-height: 149%;
+    color: rgba(0, 0, 0, 0.54);
+}
+.detail3,.detail4,.detail-student2,.detail-student1{
+    width: 50%;
+}
+.detail1 img{
+    width: 261px;
+    height: 148px;
+    border-radius: 4px;
+}
+@media only screen and (max-width:1025px){
+    .student-item{
+        flex-basis: 45%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+    .detail1 img{
+        width:148px;
+    }
+}
+@media only screen and (max-width:770px){
+    .student-item{
+        width: 100%;
+    }
+    .detail-student1{
+        display: inline-block;
+        width: 100%;
+        border: none;
+    }
+    .detail-student2{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width:480px){
+    .student-item{
+        flex-basis: 100%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+    #detail-student{
+        display: block;
+    }
+    .detail-student2{
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+/* Add Animation */
+    @-webkit-keyframes slideIn {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+
+        to {
+            top: 5%;
+            opacity: 1
+        }
+    }
+
+    @keyframes slideIn {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+
+        to {
+            top: 5%;
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes fadeIn {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    .l_btn {
+        padding: 5px 15px;
+        background: #1B6AAB;
+        color: white;
+        border-radius: 15px;
+    }
+
+    .l_color {
+        background: #F89923;
+    }
+
+    .l_text {
+        text-align: right;
+    }
+
+    @media only screen and (max-width: 767.9px) {
+        .l_modal-content {
+            width: 80%;
+            left: 10%;
+        }
+        #xemthem{
+            bottom: -60px;
+        }
+    }

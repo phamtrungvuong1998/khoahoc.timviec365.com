@@ -1,0 +1,311 @@
+body{
+	background: #E5E5E5;
+}
+
+.container-title{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+}
+
+.contaner-title-img{
+	flex-basis: 50%;
+	padding-right: 32px;
+}
+
+#v_title{
+	text-align: left;
+	margin-top: 42px;
+	flex-basis: 50%;
+}
+#v_title-1{
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.87)
+}
+.select2-container .select2-selection--single{
+	width: 290px;
+    height: 45px;
+	padding-top: 7px;
+}
+.select2-container{
+	width: 212px !important;
+}
+.select2-container--open .select2-dropdown--below{
+	    width: 290px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 10px;
+	left: 262px;	
+}
+#v_title-2{
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+#v_title-3{
+	font-weight: 400;
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0.54);
+	line-height: 149%;
+}
+
+#v_title-3 a{
+	color: #1B6AAB;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+#v_bieu-mau-title{
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 64px;
+	margin-bottom: 48px;
+	color: #000000;
+}
+
+#v_bieu-mau-title span{
+	color: red;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+#v_form{
+	width: 70%;
+}
+
+.v_form-1,
+.v_form-2,
+.v_form-3{
+	background: white;
+	margin-bottom: 48px;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#v_form-title{
+	display: flex;
+	padding-top: 31px;
+	padding-bottom: 35px;
+}
+
+#v_form-title-hr{
+	background: #1B6AAB;
+	height: 16px;
+	width: 5%;
+	margin: 0;
+}
+
+#v_form-title-1{
+	font-size: 20px;
+	padding-left: 8px;
+	margin: 0;
+	color: #000000DE;
+}
+
+.v_form-detail{
+	text-align: left;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 15px;
+}
+
+.v_form-label{
+	width: 100%;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.v_form-label span{
+	color: red;
+}
+
+.v_form-input,
+.v_form-input-2,
+select,
+textarea {
+	width: 100%;
+	height: 45px;
+	border: 1px solid #0000001F;
+	padding-left: 16px;
+	border-radius: 4px;
+}
+
+::placeholder{
+	color: rgba(0, 0, 0, 0.12);
+}
+
+#v_form-sdt{
+	font-weight: 300;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.54);
+	padding-top: 8px;
+}
+
+#v_form-address{
+	display: flex;
+	padding-left: 5%;
+	padding-right: 5%;
+	flex-wrap: wrap;
+	padding-bottom: 54px;
+	justify-content: space-between;
+}
+
+.v_form-address-1{
+	flex-basis: 100%;
+	text-align: left;
+	margin-top: 24px;
+}
+
+#v_form-select-1{
+	width: 30%;
+}
+
+.v_form-address-2{
+	flex-basis: 40%;
+	text-align: left;
+	
+}
+
+#v_form-select-2{
+	width: 100%;
+}
+
+.v_form-address-3{
+	flex-basis: 40%;
+	text-align: left;
+}
+
+textarea{
+	height: 130px;
+}
+
+.v_form-2{
+	padding-bottom: 32px;
+	margin-bottom: 40px;
+}
+
+.v_form-label-2,
+.v_form-label-3 {
+	    width: 100%;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.v_form-label-2 span,
+.v_form-label-3 span{
+	color: red;
+	font-weight: 700;
+}
+
+.v_form-radio{
+	padding-right: 0;
+}
+
+.v_form-radio input{
+	width: 24px;
+	height: 24px;
+}
+
+.v_form-radio-text{
+	font-weight: 400;
+	font-size: 14px;
+	padding-left: 0;
+	padding-bottom: 24px;
+}
+
+.v_form-radio-text a{
+	color: #1B6AAB;
+}
+
+.v_form-label-3{
+	padding-top: 32px;
+}
+
+#v_form-3-p{
+	font-weight: 400;
+	font-size: 14px;
+	color: #0000008A;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+#v_btn-submit{
+	color: black;
+	background: #F89923;
+	font-weight: 700;
+	font-size: 14px;
+	padding-right: 12px;
+	padding-left: 16px;
+	border: none;
+	height: 36px;
+	border-radius: 4px;
+	margin-bottom: 36px;
+}
+.l_text_color{
+	float: right;
+}
+#v_form-detail-2{
+	margin-bottom: 32px;
+	display: table;
+	width: 90%;
+	border-collapse: collapse;
+}
+
+.v_form-detail-2-text{
+	display: table-row;
+	border: 1px solid #0000001F;
+	height: 44px;
+	border-left: none;
+	border-right: none;
+}
+
+.v_form-detail-2-text:first-child{
+	border-top: none;
+}
+
+.v_form-detail-2-text input{
+	width: 20px;
+	height: 18px;
+}
+
+.v_form-detail-2-text div{
+	display: table-cell;
+	padding-top: 10px;
+}
+
+.v_linh-vuc{
+	text-align: left;
+	color: #1B6AAB;
+}
+
+.v_form-3{
+	margin-bottom: 334px;
+}
+
+@media (max-width: 1365px){
+	#v_form{
+		width: 90%;
+	}
+	
+	#v_title-1{
+		display: none;
+	}
+
+	#v_title-2{
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	#v_title-3{
+		font-size: 16px;
+		margin-top: 24px;
+	}
+
+	#v_title-3 a{
+		font-size: 16px;
+	}
+}

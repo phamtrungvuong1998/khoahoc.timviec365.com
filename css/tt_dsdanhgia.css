@@ -1,0 +1,266 @@
+.l_chucnang {
+    margin: 70px auto 0px;
+    width: 95%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l_btn_boloc {
+    width: 95px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.p {
+    width: 161px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.l_phanhoi {
+    color: #1B6AAB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.l_content {
+    width: 95%;
+    margin: 30px auto;
+    display: table;
+    border-collapse: collapse;
+    background: white;
+}
+
+.l_content-title {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: table-row;
+    background: #F4F2FF;
+    font-weight: 700;
+    color: #1B6AAB;
+    border-radius: 8px 8px 0 0;
+}
+
+.l_content-title div {
+    font-size: 14px;
+    padding: 20px 0px 20px 10px;
+}
+
+.l_noidungkh {
+    display: table-row;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.l_table-cell {
+    display: table-cell;
+    padding: 20px 0px 20px 10px;
+}
+
+.l_timkiem {
+    display: flex;
+    width: 62%;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.l_input {
+    width: 94%;
+    height: 40px;
+    background: #F4F2FF;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 0;
+}
+
+.l_btn_timkiem {
+    width: 40px;
+    background: #F4F2FF;
+    height: 40px;
+    border: none;
+}
+
+.l_btn_excel {
+    border: none;
+    outline: none;
+    width: 144px;
+    height: 39px;
+    background: #185DA0;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.l_phantrang {
+    clear: left;
+    text-align: center;
+    padding: 18px 0px 140px;
+}
+
+.l_phantrang_btn {
+    margin-right: 10px;
+    padding: 6px 12px;
+    background: white;
+    outline: none;
+    opacity: 0.7;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.l_phantrang_btn1 {
+    margin-right: 10px;
+    padding: 6px 12px;
+    background: no-repeat;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #1B6AAB;
+    color: rgb(255, 255, 255);
+}
+
+
+/* .l_content-list {
+    width: 20%;
+} */
+
+.l_madonhang {
+    width: 13%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(27, 106, 171, 0.7);
+}
+
+.l_chinhsuabtn {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.l_btndanhgia {
+    background: none;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B6AAB;
+}
+
+.l_giangday {
+    display: block;
+}
+
+.l_khoahocgiangday,
+.l_danhsachdanhgia {
+    color: #096ed1;
+}
+
+.l_textarea {
+    width: 315px;
+    height: 106px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.l_gui {
+    width: 90px;
+    height: 28px;
+    left: 239px;
+    top: 146px;
+    background: #2169A8;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+}
+
+.l_table {
+    position: relative;
+}
+
+.l_hienthidanhgia {
+    display: none;
+    z-index: 1;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    right: 0px;
+}
+
+.l_show {
+    display: block;
+}
+
+.l_width {
+    width: 40%;
+}
+
+.l_font_size {
+    text-align: center;
+    font-size: 22px;
+    color: #1B6AAB;
+}
+
+.thongbao {
+    text-align: center;
+    font-size: 22px;
+    color: #1B6AAB;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1366px) {
+    .l_right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767.9px) {
+    .l_btndanhgia {
+        background: #1B6AAB;
+        border: none;
+        outline: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 5px 10px;
+        color: #ffffff;
+        border-radius: 15px;
+    }
+    .l_hienthidanhgia {
+        display: none;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 38px rgb(0 0 0 / 14%), 0px 9px 46px rgb(0 0 0 / 12%), 0px 11px 15px rgb(0 0 0 / 20%);
+        border-radius: 4px;
+        position: relative;
+    }
+    .l_textarea {
+        width: 100%;
+    }
+}
